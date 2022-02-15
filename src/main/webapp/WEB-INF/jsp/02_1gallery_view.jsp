@@ -495,7 +495,7 @@ function input_page()  {
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="#">삼겹살 마싰다....</a></h4>
+                <h4><a href="#">삼겹살 마싰다.. ..</a></h4>
                 <p>1620kcal</p>
               </div>
             </div>
