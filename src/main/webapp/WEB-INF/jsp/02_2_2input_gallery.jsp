@@ -127,7 +127,7 @@
 					</a>
 						<div class="dropdown-menu dropdown-menu-right navbar-dropdown"
 							aria-labelledby="profileDropdown">
-							<a class="dropdown-item"> <!-- <i class="ti-settings text-primary"></i> -->
+							<a class="dropdown-item" href="http://localhost:8090/mypage"> <!-- <i class="ti-settings text-primary"></i> -->
 								<i></i> 마이페이지
 							</a> <a class="dropdown-item"> <!-- <i class="ti-power-off text-primary"></i> -->
 								<i></i> 로그아웃
@@ -299,7 +299,7 @@
 					</a></li>
 					
 					<li class="nav-item"><a class="nav-link"
-						href="http://localhost:8090/gallery">
+						href="http://localhost:8090/mypage">
 						<i class="icon-head menu-icon"></i> <span class="menu-title">마이페이지</span>
 					</a></li>					
 				</ul>

@@ -70,5 +70,8 @@ public class DemoController {
 	public String input_memo() {
 		return "04_2input_memo";
 	}
-	
+	@RequestMapping("/mypage")
+	public String mypage() {
+		return "05_1mypage";
+	}
 }	
