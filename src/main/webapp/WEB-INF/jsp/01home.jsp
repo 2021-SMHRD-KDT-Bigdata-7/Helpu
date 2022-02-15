@@ -29,21 +29,20 @@
 <!-- inject:css -->
 <link rel="stylesheet"
 	href="resources/css/vertical-layout-light/style.css">
-<!-- endinject -->
+<!-- eninject -->
 <link rel="shortcut icon" href="resources/images/favicon.png" />
 <!--calendar  -->
 <script type="text/javascript">
-function input_food()  {
-	  window.location.href = 'http://localhost:8090/input_food'
+	function input_food() {
+		window.location.href = 'http://localhost:8090/input_food'
 	}
-
 </script>
 <link href='resources/lib/main2.css' rel='stylesheet' />
 <script src='resources/lib/main2.js'></script>
 </head>
 <body>
 	<div class="container-scroller">
-		<!-- partial:partials/_navbar.html -->
+		<!-- partial:partials/_navbar.htl -->
 		<nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
 			<div
 				class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
@@ -60,54 +59,52 @@ function input_food()  {
 					<li class="nav-item nav-search d-none d-lg-block"></li>
 				</ul>
 				<ul class="navbar-nav navbar-nav-right">
-					  <li class="nav-item dropdown">
-            <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#" data-toggle="dropdown">
-              <i class="icon-bell mx-0"></i>
-              <span class="count"></span>
-            </a>
-            <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="notificationDropdown">
-              <p class="mb-0 font-weight-normal float-left dropdown-header">Notifications</p>
-              <a class="dropdown-item preview-item">
-                <div class="preview-thumbnail">
-                  <div class="preview-icon bg-success">
-                    <i class="ti-info-alt mx-0"></i>
-                  </div>
-                </div>
-                <div class="preview-item-content">
-                  <h6 class="preview-subject font-weight-normal">Application Error</h6>
-                  <p class="font-weight-light small-text mb-0 text-muted">
-                    Just now
-                  </p>
-                </div>
-              </a>
-              <a class="dropdown-item preview-item">
-                <div class="preview-thumbnail">
-                  <div class="preview-icon bg-warning">
-                    <i class="ti-settings mx-0"></i>
-                  </div>
-                </div>
-                <div class="preview-item-content">
-                  <h6 class="preview-subject font-weight-normal">Settings</h6>
-                  <p class="font-weight-light small-text mb-0 text-muted">
-                    Private message
-                  </p>
-                </div>
-              </a>
-              <a class="dropdown-item preview-item">
-                <div class="preview-thumbnail">
-                  <div class="preview-icon bg-info">
-                    <i class="ti-user mx-0"></i>
-                  </div>
-                </div>
-                <div class="preview-item-content">
-                  <h6 class="preview-subject font-weight-normal">New user registration</h6>
-                  <p class="font-weight-light small-text mb-0 text-muted">
-                    2 days ago
-                  </p>
-                </div>
-              </a>
-            </div>
-          </li>
+					<li class="nav-item dropdown"><a
+						class="nav-link count-indicator dropdown-toggle"
+						id="notificationDropdown" href="#" data-toggle="dropdown"> <i
+							class="icon-bell mx-0"></i> <span class="count"></span>
+					</a>
+						<div
+							class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list"
+							aria-labelledby="notificationDropdown">
+							<p class="mb-0 font-weight-normal float-left dropdown-header">Notifications</p>
+							<a class="dropdown-item preview-item">
+								<div class="preview-thumbnail">
+									<div class="preview-icon bg-success">
+										<i class="ti-info-alt mx-0"></i>
+									</div>
+								</div>
+								<div class="preview-item-content">
+									<h6 class="preview-subject font-weight-normal">Application
+										Error</h6>
+									<p class="font-weight-light small-text mb-0 text-muted">
+										Just now</p>
+								</div>
+							</a> <a class="dropdown-item preview-item">
+								<div class="preview-thumbnail">
+									<div class="preview-icon bg-warning">
+										<i class="ti-settings mx-0"></i>
+									</div>
+								</div>
+								<div class="preview-item-content">
+									<h6 class="preview-subject font-weight-normal">Settings</h6>
+									<p class="font-weight-light small-text mb-0 text-muted">
+										Private message</p>
+								</div>
+							</a> <a class="dropdown-item preview-item">
+								<div class="preview-thumbnail">
+									<div class="preview-icon bg-info">
+										<i class="ti-user mx-0"></i>
+									</div>
+								</div>
+								<div class="preview-item-content">
+									<h6 class="preview-subject font-weight-normal">New user
+										registration</h6>
+									<p class="font-weight-light small-text mb-0 text-muted">2
+										days ago</p>
+								</div>
+							</a>
+						</div></li>
 					<li class="nav-item dropdown">
 						<div
 							class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list"
@@ -145,8 +142,8 @@ function input_food()  {
 					</a>
 						<div class="dropdown-menu dropdown-menu-right navbar-dropdown"
 							aria-labelledby="profileDropdown">
-							<a class="dropdown-item"> <!-- <i class="ti-settings text-primary"></i> -->
-								<i></i> 마이페이지
+							<a class="dropdown-item" href='http://localhost:8090/mypage'>
+								<!-- <i class="ti-settings text-primary"></i> --> <i></i> 마이페이지
 							</a> <a class="dropdown-item"> <!-- <i class="ti-power-off text-primary"></i> -->
 								<i></i> 로그아웃
 							</a>
@@ -300,29 +297,29 @@ function input_food()  {
 								<li class="nav-item"><a class="nav-link"
 									href="http://localhost:8090/gallery">나의 다이어리</a></li>
 								<li class="nav-item"><a class="nav-link"
-									href="http://localhost:8090/input_food">다이어리 작성하기</a></li>							
+									href="http://localhost:8090/input_food">다이어리 작성하기</a></li>
 								<li class="nav-item"><a class="nav-link"
 									href="http://localhost:8090/calendar">나의 일정(캘린더)</a></li>
 							</ul>
 						</div></li>
-						
-					
-					
+
+
+
 					<li class="nav-item"><a class="nav-link"
-					href="http://localhost:8090/habit"> <i class="icon-bar-graph menu-icon"></i>
-							<span class="menu-title">식습관 분석</span> 
-					</a>
-						</li>
+						href="http://localhost:8090/habit"> <i
+							class="icon-bar-graph menu-icon"></i> <span class="menu-title">식습관
+								분석</span>
+					</a></li>
 
 					<li class="nav-item"><a class="nav-link"
 						href="http://localhost:8090/memo"> <i
 							class="icon-layout menu-icon"></i> <span class="menu-title">게시판</span>
 					</a></li>
-					
+
 					<li class="nav-item"><a class="nav-link"
-						href="#">
-						<i class="icon-head menu-icon"></i> <span class="menu-title">마이페이지</span>
-					</a></li>					
+						href="http://localhost:8090/mypage"> <i
+							class="icon-head menu-icon"></i> <span class="menu-title">마이페이지</span>
+					</a></li>
 				</ul>
 			</nav>
 			<!--복붙용-->
@@ -333,44 +330,60 @@ function input_food()  {
 						<div class="col-md-12 grid-margin">
 							<div class="row">
 								<div class="col-12 col-xl-8 mb-4 mb-xl-0">
-									<h3 class="font-weight-bold">					
-										나민주님의 리포트!					
-									</h3>
+									<h3 class="font-weight-bold">나민주님의 리포트!</h3>
 								</div>
-							<div class="col-12 col-xl-4">
-								<div class="justify-content-end d-flex">
-									<div class="dropdown flex-md-grow-1 flex-xl-grow-0">
-										<div class="add-items d-flex mb-0 mt-2">
-											<input type="text" class="form-control todo-list-input" disabled placeholder="오늘의 식사 입력하기">
-										  	 <button class="add btn btn-icon text-primary todo-list-add-btn bg-transparent" onclick="input_food()"><i class="icon-circle-plus"></i></button>
-											<button class="btn btn-sm btn-light bg-white dropdown-toggle"
-												type="button" id="dropdownMenuDate2" data-toggle="dropdown"
-												aria-haspopup="true" aria-expanded="true">
-												<i class="mdi mdi-calendar"></i> 아침
-											</button>
-											<div class="dropdown-menu dropdown-menu-right"
-												aria-labelledby="dropdownMenuDate2">
-												<a class="dropdown-item" href="#">점심</a> 
-												<a class="dropdown-item" href="#">간식</a> 
-												<a class="dropdown-item" href="#">저녁</a> 
+								<div class="col-12 col-xl-4">
+									<div class="justify-content-end d-flex">
+										<div class="dropdown flex-md-grow-1 flex-xl-grow-0">
+											<div class="add-items d-flex mb-0 mt-2">
+												<input type="text" class="form-control todo-list-input"
+													disabled placeholder="오늘의 식사 입력하기">
+												<button
+													class="add btn btn-icon text-primary todo-list-add-btn bg-transparent"
+													onclick="input_food()">
+													<i class="icon-circle-plus"></i>
+												</button>
+												<button
+													class="btn btn-sm btn-light bg-white dropdown-toggle"
+													type="button" id="dropdownMenuDate2" data-toggle="dropdown"
+													aria-haspopup="true" aria-expanded="true">
+													<i class="mdi mdi-calendar"></i> 아침
+												</button>
+												<div class="dropdown-menu dropdown-menu-right"
+													aria-labelledby="dropdownMenuDate2">
+													<a class="dropdown-item" href="#">점심</a> <a
+														class="dropdown-item" href="#">간식</a> <a
+														class="dropdown-item" href="#">저녁</a>
+												</div>
 											</div>
-										</div>
-										
+
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-					<!-- s -->
+					<!-- 크라우셀 이식용 -->
+					<!-- <div class="row">
+						<div class="col-md-12 grid-margin stretch-card">
+							<div class="card position-relative">
+								<div class="card-body">
+
+									
+									
+									
+								</div>
+							</div>
+						</div>
+					</div> -->
+					<!-- 이식용 -->
 					<!-- s -->
 					<div class="row">
 						<div class="col-md-12 grid-margin stretch-card">
 							<div class="card position-relative">
 								<div class="card-body">
 									<div id="detailedReports"
-										class="carousel slide detailed-report-carousel position-static pt-1"
-										>
+										class="carousel slide detailed-report-carousel position-static pt-1">
 										<div class="carousel-inner">
 											<div class="carousel-item active">
 												<!--실험 active data-ride="carousel"   -->
@@ -805,7 +818,9 @@ function input_food()  {
 					</div>
 
 					<div class="row">
-						<div class="col-md-6 grid-margin stretch-card">
+
+						<!-- <div class="col-md-6 grid-margin stretch-card">테스트-->
+						<div class="col-lg-6 pe-lg-2 mb-3">
 							<div class="card">
 								<div class="card-body">
 									<p class="card-title">이번 주 섭취량? 아니면 그냥 7일 단위?</p>
@@ -814,7 +829,7 @@ function input_food()  {
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6 grid-margin stretch-card">
+						<div class="col-lg-6 pe-lg-2 mb-3">
 							<div class="card">
 								<div class="card-body">
 									<h4 class="card-title">오늘의 목표!</h4>
@@ -831,8 +846,8 @@ function input_food()  {
 											<li class="completed">
 												<div class="form-check form-check-flat">
 													<label class="form-check-label"> <input
-														class="checkbox" type="checkbox" checked>
-														아침 꼭 챙겨먹기
+														class="checkbox" type="checkbox" checked> 아침 꼭
+														챙겨먹기
 													</label>
 												</div> <i class="remove ti-close"></i>
 											</li>
@@ -846,7 +861,8 @@ function input_food()  {
 											<li class="completed">
 												<div class="form-check form-check-flat">
 													<label class="form-check-label"> <input
-														class="checkbox" type="checkbox" checked> 칼슘 위주 음식 먹기
+														class="checkbox" type="checkbox" checked> 칼슘 위주 음식
+														먹기
 													</label>
 												</div> <i class="remove ti-close"></i>
 											</li>
