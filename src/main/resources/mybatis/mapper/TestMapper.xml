@@ -8,5 +8,9 @@
   <select id="getAllDataList" resultType="com.example.all.portfolio">
     SELECT * FROM portfolio;
   </select>
+  
+  <select id="tbMemberList" resultType="com.example.all.Tb_Member">
+    SELECT * FROM tb_member;
+  </select>
 
 </mapper>

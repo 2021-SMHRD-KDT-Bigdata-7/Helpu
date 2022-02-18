@@ -2,16 +2,23 @@ package com.example.demo;
 
 import java.text.DateFormat;
 import java.util.Date;
+import java.util.List;
 import java.util.Locale;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.example.all.Tb_Member;
+import com.example.all.service.Tb_MemberService;
 
 @Controller
 public class DemoController {
-
+	@Autowired
+    Tb_MemberService tb_memberService;
 	/*
 	 * @RequestMapping("/gallery_view") public String gallery_view() { return
 	 * "gallery_view"; }
@@ -74,4 +81,12 @@ public class DemoController {
 	public String mypage() {
 		return "05_1mypage";
 	}
+	/*@RequestMapping("/ex_db")
+	public String ex_db() {
+		return "ex_db";
+	}*/
+	/*@RequestMapping("/ex_db")
+    public @ResponseBody List<Tb_Member> ex_db(Tb_Member vo) throws Exception{
+        return tb_memberService.getAll();
+    }*/
 }	
