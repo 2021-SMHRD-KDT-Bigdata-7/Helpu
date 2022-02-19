@@ -11,11 +11,13 @@ import com.example.all.mapper.Tb_MemberMapper;
 @Service
 public class Tb_MemberService {
 
+	// Service 필요없음
 	@Autowired
-    Tb_MemberMapper tb_memberMapper;
+    private Tb_MemberMapper tb_memberMapper;
     
-    public List<Tb_Member> getAll() throws Exception{
-        return tb_memberMapper.tbMemberList();
+    public List<Tb_Member> galleryListAjex(){
+    	List<Tb_Member> list  = tb_memberMapper.galleryList();
+        return list;
     }
 	
 }

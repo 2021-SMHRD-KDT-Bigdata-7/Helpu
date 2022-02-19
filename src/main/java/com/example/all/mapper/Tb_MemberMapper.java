@@ -3,6 +3,7 @@ package com.example.all.mapper;
 import java.util.List;
 
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Select;
 import org.springframework.stereotype.Component;
 
 import com.example.all.Tb_Member;
@@ -11,5 +12,6 @@ import com.example.all.Tb_Member;
 @Component
 public interface Tb_MemberMapper {
 	
-	public List<Tb_Member> tbMemberList() throws Exception;
+	@Select("select * from tb_member")
+    public List<Tb_Member> galleryList();
 }
