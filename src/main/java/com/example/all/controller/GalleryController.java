@@ -7,6 +7,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import com.example.all.Tb_Gallery;
 import com.example.all.Tb_Member;
@@ -22,7 +23,13 @@ public class GalleryController {
 	@RequestMapping("/galleryInsert.do")
     public String galleryInsert(Tb_Gallery vo) {
 		service.galleryInsertAjax(vo);
-		return "02_2_1input_food";
+		return "02_1gallery_view";
+    }
+	
+	@RequestMapping(value="/galleryDelete.do", method = RequestMethod.GET)
+    public String galleryDelete(@RequestParam("t_seq") int t_seq) {
+		service.galleryDeleteAjax(t_seq);
+		return "02_1gallery_view";
     }
 	
 	@RequestMapping(value = "/gallery", method = RequestMethod.GET)

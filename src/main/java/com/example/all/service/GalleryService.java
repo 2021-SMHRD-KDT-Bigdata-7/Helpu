@@ -14,9 +14,13 @@ public class GalleryService {
 
 	@Autowired
     private GalleryMapper galleryMapper;
-
+	
     public void galleryInsertAjax(Tb_Gallery vo) {
     	galleryMapper.galleryInsert(vo);
+    }
+    
+    public void galleryDeleteAjax(int t_seq) {
+    	galleryMapper.galleryDelete(t_seq);
     }
     
     public List<Tb_Gallery> galleryListAjex(){

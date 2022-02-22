@@ -8,6 +8,10 @@
 	    values(#{t_title},#{t_date},#{t_mids},#{t_content})
     </insert>
     <select id="gallerySelectList" resultType="com.example.all.Tb_Gallery">
-      select * from tb_gallery
+    	select * from tb_gallery
     </select>   
+ 	<!-- <delete id="galleryDelete" parameterType="com.example.all.Tb_Gallery">
+      delete from tb_gallery 
+      where t_seq = #{t_seq}
+    </delete>  -->
 </mapper>

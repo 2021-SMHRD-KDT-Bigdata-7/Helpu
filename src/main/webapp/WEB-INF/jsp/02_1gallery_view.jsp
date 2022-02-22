@@ -210,6 +210,16 @@
 	function input_page() {
 		window.location.href = 'http://localhost:8090/input_memo'
 	}
+	function goDelete(t_seq){
+	/* 	// location.href="${cpath}/boardDelete.do/${vo.idx}";
+		location.href="${cpath}/galleryDelete.do?t_seq="+t_seq; */
+		$.ajax({
+			url : "${cpath}/galleryDelete.do",
+			type : "get",
+     		data : {"t_seq":t_seq},
+			error : function(){ alert("error"); }
+		});
+	}
 </script>
 </head>
 
@@ -531,14 +541,12 @@
 												<a href="#" class="link-details" title="More Details"><i
 													class="ion ion-android-open"></i></a>
 											</figure>
-											
 											<div class="portfolio-info">
 												<h4>
 													<a class="popup-with-move-anim" href=".${gall.t_title}">${gall.t_title}</a>
 												</h4>
 												<p>1620kcal</p>
 											</div>
-
 											<!-- 팝업 -->
 											<div id="details-lightbox-1" class="lightbox-basic zoom-anim-dialog mfp-hide ${gall.t_title}">
 												<div class="container">
@@ -562,6 +570,9 @@
 															UP</a>  -->
 															<a class="btn-outline-reg mfp-close as-button"
 																href="#screenshots">BACK</a>
+															<button onclick="goDelete(${gall.t_seq})" style="border:0; outline=0; background:none;">
+																<a class="btn-outline-reg mfp-close as-button" href="#screenshots">삭제</a>
+															</button>
 														</div>
 														<!-- end of col -->
 													</div>

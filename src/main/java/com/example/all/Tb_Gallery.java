@@ -12,9 +12,9 @@ import lombok.Setter;
 @AllArgsConstructor
 @Data
 public class Tb_Gallery {
-//	private int t_seq;
+	private int t_seq;
 //	private String c_m_id;
-//	private String t_filename ;
+	private String t_filename ;
 //	private String t_name ;
 //	private int t_kcal ;
 //	private int t_carbohydrate ;
