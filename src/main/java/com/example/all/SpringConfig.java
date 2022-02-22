@@ -35,7 +35,7 @@ public class SpringConfig extends WebSecurityConfigurerAdapter {
     @Autowired
     public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception{
     	auth.inMemoryAuthentication()
-    		.withUser("user").password(passwordEncoder().encode("1234")).roles("USER")
+    		.withUser("skalswn").password(passwordEncoder().encode("123456")).roles("USER")
     		.and()
     		.withUser("admin").password(passwordEncoder().encode("1234")).roles("ADMIN");
     	

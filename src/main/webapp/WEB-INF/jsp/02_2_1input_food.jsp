@@ -1,6 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -539,128 +538,16 @@
 												</div>
 											</div>
 		
-											<button type="button" class="btn btn-info mr-2">촬영</button>
+											<button type="button" class="btn btn-info mr-2" onclick="location.href='http://localhost:8090/input_gallery'">확인</button>
 											
 											<button class="btn btn-light">취소</button>
 										</form>
 									</div>
 								</div>
 							</div>
-							<!--개략적인 음식 영양분 위치 고민중  -->
-							<div class="col-12 grid-margin stretch-card">
-								<div class="card">
-									<div class="card-body">
-										<p class="card-title">총 섭취량</p>
-										<div class="charts-data">
-											<div class="mt-3">
-												<p class="mb-0">칼로리</p>
-												<div
-													class="d-flex justify-content-between align-items-center">
-													<div class="progress progress-md flex-grow-1 mr-4">
-														<div class="progress-bar bg-danger role="
-															progressbar" style="width: 95%" aria-valuenow="95"
-															aria-valuemin="0" aria-valuemax="100"></div>
-													</div>
-													<p class="mb-0">1521kcal</p>
-												</div>
-											</div>
-											<div class="mt-3">
-												<p class="mb-0">탄수화물</p>
-												<div
-													class="d-flex justify-content-between align-items-center">
-													<div class="progress progress-md flex-grow-1 mr-4">
-														<div class="progress-bar bg-warning" role="progressbar"
-															style="width: 35%" aria-valuenow="35" aria-valuemin="0"
-															aria-valuemax="100"></div>
-													</div>
-													<p class="mb-0">100g</p>
-												</div>
-											</div>
-											<div class="mt-3">
-												<p class="mb-0">단백질</p>
-												<div
-													class="d-flex justify-content-between align-items-center">
-													<div class="progress progress-md flex-grow-1 mr-4">
-														<div class="progress-bar bg-success" role="progressbar"
-															style="width: 48%" aria-valuenow="48" aria-valuemin="0"
-															aria-valuemax="100"></div>
-													</div>
-													<p class="mb-0">992g</p>
-												</div>
-											</div>
-											<div class="mt-3">
-												<p class="mb-0">지방</p>
-												<div
-													class="d-flex justify-content-between align-items-center">
-													<div class="progress progress-md flex-grow-1 mr-4">
-														<div class="progress-bar bg-info" role="progressbar"
-															style="width: 25%" aria-valuenow="25" aria-valuemin="0"
-															aria-valuemax="100"></div>
-													</div>
-													<p class="mb-0">687g</p>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!--  -->
-
-						</div>
-						<!--음식 직접 검색 -->
-
-
-
-
-
-
-
-
-						<!--음식리스트  -->
-						<div class="col-md-12 grid-margin stretch-card">
-							<div class="card">
-								<div class="card-body">
-									<h4 class="card-title">음식 리스트</h4>
-									<p class="card-description">음식의 정보를 수정하려면 음식을 클릭해 주십시오</p>
-									<div class="list-wrapper pt-2">
-										<ul
-											class="d-flex flex-column-reverse todo-list todo-list-custom">
-											<li>
-												<div class="form-check form-check-flat">
-													<label class="form-check-label"> <a href="">김치찌게</a>
-													</label>
-												</div> <i class="remove ti-close"></i>
-											</li>
-											<li>
-												<div class="form-check form-check-flat">
-													<label class="form-check-label"> <a href="">햇반</a>
-													</label>
-												</div> <i class="remove ti-close"></i>
-											</li>
-											<li>
-												<div class="form-check form-check-flat">
-													<label class="form-check-label"> <a href="">스팸</a>
-													</label>
-												</div> <i class="remove ti-close"></i>
-											</li>
-										</ul>
-										<div class="add-items d-flex mb-0 mt-2">
-											<input type="text" class="form-control todo-list-input"
-												placeholder="음식 넣기">
-											<button
-												class="add btn btn-icon text-primary todo-list-add-btn bg-transparent"
-												onclick='input_search()'>
-												<i class="icon-circle-plus"></i>
-											</button>
-										</div>
-									</div>
-									<button type="submit" class="btn btn-primary mr-2">작성</button>
-								</div>
-							</div>
 							
 						</div>
-						
-						<!--  -->
+						<!--음식 직접 검색 -->
 					</div>
 					<!-- content-wrapper ends -->
 					<!-- partial:../../partials/_footer.html -->

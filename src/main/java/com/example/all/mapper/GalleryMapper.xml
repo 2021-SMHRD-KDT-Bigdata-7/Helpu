@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.all.mapper.GalleryMapper"> 
+    <insert id="galleryInsert" parameterType="com.example.all.Tb_Gallery">
+	    insert into tb_gallery(t_title,t_date,t_mids,t_content)
+	    values(#{t_title},#{t_date},#{t_mids},#{t_content})
+    </insert>
+    <select id="gallerySelectList" resultType="com.example.all.Tb_Gallery">
+      select * from tb_gallery
+    </select>   
+</mapper>

@@ -54,13 +54,19 @@ $(document).ready(function() {
               <!-- <h6 class="font-weight-light">로그인</h6> -->
               <form class="pt-3" id="loginform" method="post" th:action="@{/login_proc}">">
                 <div class="form-group">
+
                   <input type="text" class="form-control form-control-lg" id="userid" placeholder="Username">
+
                 </div>
                 <div class="form-group">
+
                   <input type="password" class="form-control form-control-lg" id="userpassword" placeholder="Password">
+
                 </div>
                 <div class="mt-3">
+
                   <button type="button" id="loginBtn" class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn">로그인</button>
+
                 </div>
                 <div class="my-2 d-flex justify-content-between align-items-center">
                   <div class="form-check">
