@@ -22,8 +22,9 @@ public class GalleryController {
 	
 	@RequestMapping("/galleryInsert.do")
     public String galleryInsert(Tb_Gallery vo) {
+		System.out.print("check");
 		service.galleryInsertAjax(vo);
-		return "02_1gallery_view";
+		return  "redirect:/gallery";
     }
 	
 	@RequestMapping(value="/galleryDelete.do", method = RequestMethod.GET)

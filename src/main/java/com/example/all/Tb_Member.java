@@ -22,6 +22,6 @@ public class Tb_Member {
 	private String m_regdate;
 	private String m_admin;
 	private String m_cheatingday;
-	private String m_weight;
+	private int m_weight;
 	
 }

@@ -16,21 +16,23 @@ public class SpringConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-
+    	http.csrf().disable().formLogin().loginPage("/login").loginProcessingUrl("/dologin").usernameParameter("id").passwordParameter("pw");
         http.authorizeRequests()
-        		
-        		.antMatchers("/css/**","/js/**","/img/**").permitAll()
+        		.antMatchers("/main").permitAll()
+        		.antMatchers("/galleryInsert.do").hasAnyRole("USER","ADMIN")
+        		.antMatchers("/galleryDelete.do").hasAnyRole("USER","ADMIN")
+        		.antMatchers("/css/**","/js/**","/img/**","/assets/**","/html/**","/resources/**","/main/**").permitAll()
                 .antMatchers("/guest/**").permitAll()
                 .antMatchers("/member/**").hasAnyRole("USER","ADMIN")
                 .antMatchers("/admin/**").hasRole("ADMIN")
-                .antMatchers("/**").hasAnyRole("USER","ADMIN")
+        		.antMatchers("/**").hasAnyRole("USER","ADMIN")
                 .anyRequest().authenticated();
-
-        http.formLogin()
-                .permitAll();
-
+        http.formLogin()       		
+                .permitAll()
+                .defaultSuccessUrl("/home");
         http.logout()
-        		.permitAll();
+        		.permitAll()
+        		.invalidateHttpSession(true);
     }
     @Autowired
     public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception{

@@ -50,22 +50,21 @@ $(document).ready(function() {
               <div class="brand-logo">
                 <img src="resources/images/logos.png" alt="logo">
               </div>
-              <h2>로그인</h2>
               <!-- <h6 class="font-weight-light">로그인</h6> -->
-              <form class="pt-3" id="loginform" method="post" th:action="@{/login_proc}">">
+              <form class="pt-3" id="loginform" method="post" action="/dologin">">
                 <div class="form-group">
 
-                  <input type="text" class="form-control form-control-lg" id="userid" placeholder="Username">
+                  <input type="text" class="form-control form-control-lg" id="username" placeholder="Username" name="id">
 
                 </div>
                 <div class="form-group">
 
-                  <input type="password" class="form-control form-control-lg" id="userpassword" placeholder="Password">
+                  <input type="password" class="form-control form-control-lg" id="password" placeholder="Password" name="pw">
 
                 </div>
                 <div class="mt-3">
 
-                  <button type="button" id="loginBtn" class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn">로그인</button>
+                  <input type="submit" value="Login" id="loginBtn" class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn">
 
                 </div>
                 <div class="my-2 d-flex justify-content-between align-items-center">

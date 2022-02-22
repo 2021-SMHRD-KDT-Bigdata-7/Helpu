@@ -12,6 +12,11 @@ import com.example.all.Tb_Member;
 @Controller
 public class DemoController {
 
+	 @RequestMapping("/main") 
+	 public String main() { 
+		 return "00_1main"; 
+	 }
+	
 	
 	 @RequestMapping("/login") 
 	 public String login() { 
@@ -29,10 +34,10 @@ public class DemoController {
 		return "01home";
 	}
 	
-	@RequestMapping("/gallery")
-	public String gallery() {
-		return "02_1gallery_view";
-	}
+	/*
+	 * @RequestMapping("/gallery") public String gallery() { return
+	 * "02_1gallery_view"; }
+	 */
 	
 	@RequestMapping("/input_food")
 	public String input_food() {

@@ -1,30 +1,24 @@
 package com.example.all.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import com.example.all.Tb_Member;
+import com.example.all.service.loginservice;
+
 @Controller
 public class LoginController {
 	
-    @RequestMapping("/log")
-    public @ResponseBody String root() throws Exception{
-        return "Security (2)";
-    }
-    
-    @RequestMapping("/welcome")
-    public String welcome1(){
-        return "guest/Welcome1";
-    }
-    
-    @RequestMapping("/member/welcome")
-    public String welcome2(){
-        return "member/Welcome2";
-    }
-    
-    @RequestMapping("/admin/welcome")
-    public String welcome3(){
-        return "admin/Welcome3";
+	@Autowired
+	private loginservice service;
+	
+	@RequestMapping("/joindo")
+    public String join(Tb_Member vo) {		
+		System.out.print("??");
+		service.joinservice(vo);
+		return  "redirect:/login";
     }
 }

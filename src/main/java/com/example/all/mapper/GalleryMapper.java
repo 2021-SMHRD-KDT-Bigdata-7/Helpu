@@ -16,6 +16,6 @@ public interface GalleryMapper {
 	@Delete("delete from tb_gallery where t_seq=#{t_seq}")
 	public void galleryDelete(int idx);
 	
-	@Select("select * from tb_gallery")
+	@Select("select * from tb_gallery order by t_seq desc")
     public List<Tb_Gallery> galleryList();
 }
