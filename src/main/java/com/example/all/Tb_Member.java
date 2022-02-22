@@ -12,6 +12,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @Data
 public class Tb_Member {
+	private Long id;
 	private String m_id;
 	private String m_pw;
 	private String m_age;

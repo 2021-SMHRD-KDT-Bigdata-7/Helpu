@@ -34,27 +34,27 @@
               <form class="pt-3">
                 <div class="form-group">
                 <h4>아이디</h4>
-                  <input type="text" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="아이디를 입력하세요">
+                  <input type="text" class="form-control form-control-lg" id="userid" placeholder="아이디를 입력하세요">
                 </div>
                 <div class="form-group">
                <h4>비밀번호</h4>
-                  <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="비밀번호를 입력하세요">
+                  <input type="password" class="form-control form-control-lg" id="userpassword" placeholder="비밀번호를 입력하세요">
                 </div>
                 <div class="form-group">
                <h4>비밀번호 확인</h4>
-                  <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="비밀번호를 다시 입력하세요">
+                  <input type="password" class="form-control form-control-lg" id="userpasswordcheck" placeholder="비밀번호를 다시 입력하세요">
                 </div>
                  <div class="form-group">
                 <h4>이름</h4>
-                  <input type="text" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="이름을 입력하세요">
+                  <input type="text" class="form-control form-control-lg" id="username" placeholder="이름을 입력하세요">
                 </div>            
                 <div class="form-group">
                 <h4>생년월일 </h4>
-                  <input type="date" class="form-control form-control-lg" id="age">
+                  <input type="date" class="form-control form-control-lg" id="userage">
                 </div>
                 <div class="form-group">
                  <h4>성별 </h4>
-                  <select class="form-control form-control-lg" id="exampleFormControlSelect2">
+                  <select class="form-control form-control-lg" id="usergender">
                     <option>성별 선택하기</option>
                     <option>남</option>
                     <option>여</option>
@@ -63,7 +63,7 @@
                 </div>
                 <div class="form-group">
                  <h4>질환 </h4>
-                  <select class="form-control form-control-lg" id="exampleFormControlSelect2">
+                  <select class="form-control form-control-lg" id="userdisease">
                     <option>해당 사항 없음</option>
                     <option>당뇨</option>
                     <option>통풍</option>

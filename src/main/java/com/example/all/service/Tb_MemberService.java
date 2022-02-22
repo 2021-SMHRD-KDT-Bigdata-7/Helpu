@@ -19,5 +19,5 @@ public class Tb_MemberService {
     	List<Tb_Member> list  = tb_memberMapper.galleryList();
         return list;
     }
-	
+ 	
 }

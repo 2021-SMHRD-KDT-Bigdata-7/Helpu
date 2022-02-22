@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<c:set var="root" value="${pageContext.request.contextPath}" />    
 <!DOCTYPE html>
 <html lang="en">
 
@@ -19,6 +21,23 @@
   <link rel="stylesheet" href="resources/css/vertical-layout-light/style.css">
   <!-- endinject -->
   <link rel="shortcut icon" href="resources/images/favicon.png" />
+  
+  
+ <script type="text/javascript">
+$(document).ready(function() {
+	$("#loginBtn").click(function() {
+		if($("#userid").val() == "") {
+			alert("아이디 입력!!!");
+			return;
+		} else if($("#userpassword").val() == "") {
+			alert("비밀번호 입력!!!");
+			return;
+		} else {
+			$("#loginform").attr("action", "${root}/user/login").submit();
+		}
+	});	 
+});
+</script> 
 </head>
 
 <body>
@@ -33,15 +52,15 @@
               </div>
               <h2>로그인</h2>
               <!-- <h6 class="font-weight-light">로그인</h6> -->
-              <form class="pt-3">
+              <form class="pt-3" id="loginform" method="post" th:action="@{/login_proc}">">
                 <div class="form-group">
-                  <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Username">
+                  <input type="text" class="form-control form-control-lg" id="userid" placeholder="Username">
                 </div>
                 <div class="form-group">
-                  <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Password">
+                  <input type="password" class="form-control form-control-lg" id="userpassword" placeholder="Password">
                 </div>
                 <div class="mt-3">
-                  <a class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" href="#">로그인</a>
+                  <button type="button" id="loginBtn" class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn">로그인</button>
                 </div>
                 <div class="my-2 d-flex justify-content-between align-items-center">
                   <div class="form-check">

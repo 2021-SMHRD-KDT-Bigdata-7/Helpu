@@ -11,28 +11,25 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.ModelAndView;
 
 import com.example.all.Tb_Member;
 import com.example.all.service.Tb_MemberService;
 
 @Controller
 public class DemoController {
-	@Autowired
-    Tb_MemberService tb_memberService;
-	/*
-	 * @RequestMapping("/gallery_view") public String gallery_view() { return
-	 * "gallery_view"; }
-	 */
-	/*
-	 * @RequestMapping("/diary") public String diary() { return "Mydiary"; }
-	 */
-
+	
 	
 
-	@RequestMapping("/login")
-	public String login() {
-		return "00_2login";
+
+
+	
+	 @RequestMapping("/login") 
+	 public String login() { 
+		 return "00_2login"; 
 	}
+
+
 
 	@RequestMapping("/join")
 	public String join() {
