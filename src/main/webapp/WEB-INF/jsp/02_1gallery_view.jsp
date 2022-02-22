@@ -159,7 +159,7 @@
 }
 
 #details-lightbox-1 .col-lg-4 p {
- height:45vh;
+	height: 45vh;
 }
 </style>
 <!-- Required meta tags -->
@@ -184,13 +184,18 @@
 	href="resources/lib/owlcarousel/assets/owl.carousel.min.css">
 <link rel="stylesheet"
 	href="resources/lib/lightbox/css/lightbox.min.css">
-	
+
 <!-- 팝업 style -->
-<link href="resources/lib/popup/popupcss/bootstrap-popup.css" rel="stylesheet">
-<link href="resources/lib/popup/popupcss/fontawesome-all-popup.css" rel="stylesheet">
-<link href="resources/lib/popup/popupcss/swiper-popup.css" rel="stylesheet">
-<link href="resources/lib/popup/popupcss/magnific-popup.css" rel="stylesheet">
-<link href="resources/lib/popup/popupcss/styles-popup.css" rel="stylesheet">
+<link href="resources/lib/popup/popupcss/bootstrap-popup.css"
+	rel="stylesheet">
+<link href="resources/lib/popup/popupcss/fontawesome-all-popup.css"
+	rel="stylesheet">
+<link href="resources/lib/popup/popupcss/swiper-popup.css"
+	rel="stylesheet">
+<link href="resources/lib/popup/popupcss/magnific-popup.css"
+	rel="stylesheet">
+<link href="resources/lib/popup/popupcss/styles-popup.css"
+	rel="stylesheet">
 <!-- 팝업 style end -->
 
 <!-- endinject -->
@@ -202,10 +207,9 @@
 <!-- endinject -->
 <link rel="shortcut icon" href="resources/images/favicon.png" />
 <script type="text/javascript">
-function input_page()  {
-	  window.location.href = 'http://localhost:8090/input_memo'
+	function input_page() {
+		window.location.href = 'http://localhost:8090/input_memo'
 	}
-
 </script>
 </head>
 
@@ -510,74 +514,66 @@ function input_page()  {
 								</div>
 							</div>
 
-							<c:forEach var="gall" items="${gallery}" varStatus="status">
+							<%-- <c:forEach var="gall" items="${gallery}" varStatus="status">
 								<p>아이디: ${gall.m_id}</p>
-							</c:forEach>
+							</c:forEach> --%>
 
 							<div class="row portfolio-container">
+								<c:forEach var="gall" items="${gallery}">
+									<!-- 갤러리 -->
+									<div class="col-lg-4 col-md-6 portfolio-item ${gall.t_mids} wow fadeInUp">
+										<div class="portfolio-wrap">
+											<figure style="background-image: url(resources/img/portfolio/01.jpg); background-size: cover; background-repeat: no-repeat;">
+												<a href="resources/img/portfolio/01.jpg"
+													data-lightbox="portfolio" data-title="App 1"
+													class="link-preview" title="Preview"><i
+													class="ion ion-eye"></i></a>
+												<a href="#" class="link-details" title="More Details"><i
+													class="ion ion-android-open"></i></a>
+											</figure>
+											
+											<div class="portfolio-info">
+												<h4>
+													<a class="popup-with-move-anim" href="#details-lightbox-1">${gall.t_title}</a>
+												</h4>
+												<p>1620kcal</p>
+											</div>
 
-								<div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
-									<div class="portfolio-wrap">
-										<figure style="background-image:url(resources/img/portfolio/01.jpg);
-														background-size:cover; background-repeat : no-repeat; ">
-											<!-- <img src="resources/img/portfolio/01.jpg" class="img-fluid"
-												alt=""> -->
-											<a href="resources/img/portfolio/01.jpg"
-												data-lightbox="portfolio" data-title="App 1"
-												class="link-preview" title="Preview"><i
-												class="ion ion-eye"></i></a>
-											<a href="#" class="link-details" title="More Details"><i
-												class="ion ion-android-open"></i></a>
-										</figure>
-
-										<div class="portfolio-info">
-											<h4>
-												<a class="popup-with-move-anim" href="#details-lightbox-1">삼겹살 마싰다...</a>
-											</h4>
-											<p>1620kcal</p>
-										</div>
-										<!-- 팝업여는 버튼 -->
-										<!-- <a class="btn-solid-reg popup-with-move-anim"
-											href="#details-lightbox-1">LIGHTBOX</a> -->
-										<!-- 팝업여는 버튼 끝 -->
-
-										<!-- 팝업 -->
-										<div id="details-lightbox-1"
-											class="lightbox-basic zoom-anim-dialog mfp-hide">
-											<div class="container">
-												<div class="row">
-													<button title="Close (Esc)" type="button"
-														class="mfp-close x-button">×</button>
-													<div class="col-lg-8" style="background-image:url(resources/img/portfolio/01.jpg);
-														background-size:cover; background-repeat : no-repeat; ">
-														<!-- <div class="image-container">
+											<!-- 팝업 -->
+											<div id="details-lightbox-1" class="lightbox-basic zoom-anim-dialog mfp-hide">
+												<div class="container">
+													<div class="row">
+														<button title="Close (Esc)" type="button"
+															class="mfp-close x-button">×</button>
+														<div class="col-lg-8"
+															style="background-image: url(resources/img/portfolio/01.jpg); background-size: cover; background-repeat: no-repeat;">
+															<!-- <div class="image-container">
 															<img src="resources/img/portfolio/01.jpg" class="img-fluid"
 															alt="">
 														</div> -->
-														<!-- end of image-container -->
-													</div>
-													<!-- end of col -->
-													<div class="col-lg-4">
-														<h3>삼겹살 마싰다...</h3>
-														<hr>
-														<p>삼겹살 먹고싶다 정말로 먹고싶다 하지만 너무 비싸지 집 근처에도 없지 
-														정말 너무하다 하지만 먹고싶다 삼겹살 엉생가고싶다 그냥 가고싶다 고기먹고싶다 
-														캐비어가 올라간 스테이크!</p>
-														<!-- <a class="btn-solid-reg mfp-close" href="sign-up.html">SIGN
+															<!-- end of image-container -->
+														</div>
+														<!-- end of col -->
+														<div class="col-lg-4">
+															<h3>${gall.t_title}</h3>
+															<hr>
+															<p>${gall.t_content}</p>
+															<!-- <a class="btn-solid-reg mfp-close" href="sign-up.html">SIGN
 															UP</a>  -->
-														<a class="btn-outline-reg mfp-close as-button"
-															href="#screenshots">BACK</a>
+															<a class="btn-outline-reg mfp-close as-button"
+																href="#screenshots">BACK</a>
+														</div>
+														<!-- end of col -->
 													</div>
-													<!-- end of col -->
+													<!-- end of row -->
 												</div>
-												<!-- end of row -->
+												<!-- end of container -->
 											</div>
-											<!-- end of container -->
+											<!-- 팝업 끝 -->
 										</div>
-										<!-- 팝업 끝 -->
 									</div>
-								</div>
-
+									<!--  -->
+								</c:forEach>
 							</div>
 
 						</div>
@@ -627,16 +623,16 @@ function input_page()  {
 	<script src="resources/lib/lightbox/js/lightbox.min.js"></script>
 	<script src="resources/lib/touchSwipe/jquery.touchSwipe.min.js"></script>
 	<script src="resources/js/main_2.js"></script>
-	
+
 	<!-- 팝업 script -->
-		<script src="resources/lib/popup/popupjs/jquery.min-popup.js"></script> 
-	    <script src="resources/lib/popup/popupjs/popper.min-popup.js"></script> 
-	    <script src="resources/lib/popup/popupjs/bootstrap.min-popup.js"></script> 
-	    <script src="resources/lib/popup/popupjs/jquery.easing.min-popup.js"></script> 
-	    <script src="resources/lib/popup/popupjs/swiper.min-popup.js"></script> 
-	    <script src="resources/lib/popup/popupjs/jquery.magnific-popup.js"></script>
-	    <script src="resources/lib/popup/popupjs/validator.min-popup.js"></script> 
-	    <script src="resources/lib/popup/popupjs/scripts-popup.js"></script>
+	<script src="resources/lib/popup/popupjs/jquery.min-popup.js"></script>
+	<script src="resources/lib/popup/popupjs/popper.min-popup.js"></script>
+	<script src="resources/lib/popup/popupjs/bootstrap.min-popup.js"></script>
+	<script src="resources/lib/popup/popupjs/jquery.easing.min-popup.js"></script>
+	<script src="resources/lib/popup/popupjs/swiper.min-popup.js"></script>
+	<script src="resources/lib/popup/popupjs/jquery.magnific-popup.js"></script>
+	<script src="resources/lib/popup/popupjs/validator.min-popup.js"></script>
+	<script src="resources/lib/popup/popupjs/scripts-popup.js"></script>
 	<!-- 팝업 script end -->
 
 	<!-- endinject -->
