@@ -526,14 +526,15 @@
 										<h4 class="card-title">오늘의 음식을 기록해보세요!</h4>
 										<form>
 											<div class="form-group">
-												<label>사진 업로드</label> <input type="file" name="img[]"
-													class="file-upload-default">
+												<label>사진 업로드</label> 
+												<form class="forms-sample" action="${cpath}/galleryImgInsert.do" method="post">
+													<input type="file" name="img" class="file-upload-default">
+												</form>
 												<div class="input-group col-xs-12">
 													<input type="text" class="form-control file-upload-info"
 														disabled placeholder="음식/영수증 사진 업로드"> <span
 														class="input-group-append">
-														<button class="file-upload-browse btn btn-primary"
-															type="button">업로드</button>
+														<button class="file-upload-browse btn btn-primary" type="button">업로드</button>
 													</span>
 												</div>
 											</div>
