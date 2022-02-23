@@ -380,7 +380,7 @@
 								<div class="card mb-3">
 								<c:forEach var="mp" items="${mypage}">
 									<div class="card-header">
-										<h5 class="mb-0">${mp.m_name}</h5>
+										<h5 class="mb-0"></h5>
 									</div>
 									<div class="card-body bg-light">
 											<div class="row">

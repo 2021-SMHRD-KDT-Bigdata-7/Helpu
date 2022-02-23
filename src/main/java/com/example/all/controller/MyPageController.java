@@ -2,6 +2,8 @@ package com.example.all.controller;
 
 import java.util.List;
 
+import javax.servlet.http.HttpSession;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -21,12 +23,17 @@ public class MyPageController {
 	private MyPageservice service;
 	// MyPageservice를 service로 선언 
 	
-	@RequestMapping("/mypage")
-    public String mypage(Model model) {
-        List<Tb_Member> mypage = service.mypageListAjex();
-        // 모델을 통해 뷰페이지로 데이터를 전달
-        model.addAttribute("mypage", mypage);
-        System.out.print(mypage.size());
+//	@RequestMapping("/mypage")
+//    public String mypage(Model model) {
+//        List<Tb_Member> mypage = service.mypageListAjex();
+//        // 모델을 통해 뷰페이지로 데이터를 전달
+//        model.addAttribute("mypage", mypage);
+//        System.out.print(mypage.size();
+        
+    	@RequestMapping("/mypage") 
+    	public String mypage(Tb_Member vo, HttpSession session, Model model) {
+    		service.mypageListAjex();
+    		
         return "05_1mypage";
     }
 }
