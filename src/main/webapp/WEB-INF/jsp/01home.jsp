@@ -829,6 +829,7 @@
 								</div>
 							</div>
 						</div>
+						<!--  -->
 						<div class="col-lg-6 pe-lg-2 mb-3">
 							<div class="card">
 								<div class="card-body">
