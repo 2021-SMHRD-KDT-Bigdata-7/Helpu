@@ -50,7 +50,7 @@ public class GalleryController {
 	 * "redirect:galleryUpdate.do"; }
 	 */
 
-	
+
 	@RequestMapping("/galleryUpdate.do")
 	public String galleryUpdate(Tb_Gallery vo) {
 		int seq =  service.galleryUpdateAjax1(vo);

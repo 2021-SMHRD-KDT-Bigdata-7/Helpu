@@ -12,6 +12,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @Data
 public class Tb_Member {
+	private Long id;
 	private String m_id;
 	private String m_pw;
 	private String m_age;
@@ -21,6 +22,6 @@ public class Tb_Member {
 	private String m_regdate;
 	private String m_admin;
 	private String m_cheatingday;
-	private String m_weight;
+	private int m_weight;
 	
 }

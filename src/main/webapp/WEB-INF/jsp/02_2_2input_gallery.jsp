@@ -522,8 +522,10 @@
 									<div class="card-body">
 										<h4 class="card-title">오늘의 음식을 기록해보세요!</h4>
 										<!-- 폼 태그 -->
+
 										<form class="forms-sample" action="${cpath}/galleryUpdate.do" method="post">
 											<input type="hidden" id="t_filename" name="t_filename" value="${param.t_filename}"/>
+
 											<div class="form-group">
 												<label for="exampleInputName1">제목</label> <input type="text"
 													class="form-control" id="t_title" name="t_title"

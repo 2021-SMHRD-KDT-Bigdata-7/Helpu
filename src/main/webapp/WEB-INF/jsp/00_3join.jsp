@@ -31,46 +31,63 @@
               <div class="brand-logo">
                 <img src="resources/images/logos.png" alt="logo">       	
               </div>
-              <form class="pt-3">
+              <form class="pt-3" action="/joindo" method="post">
                 <div class="form-group">
                 <h4>아이디</h4>
-                  <input type="text" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="아이디를 입력하세요">
+                  <input type="text" class="form-control form-control-lg" id="m_id" name="m_id" placeholder="아이디를 입력하세요">
                 </div>
                 <div class="form-group">
                <h4>비밀번호</h4>
-                  <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="비밀번호를 입력하세요">
+                  <input type="password" class="form-control form-control-lg" id="m_pw" name="m_pw" placeholder="비밀번호를 입력하세요">
                 </div>
                 <div class="form-group">
                <h4>비밀번호 확인</h4>
-                  <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="비밀번호를 다시 입력하세요">
+                  <input type="password" class="form-control form-control-lg" id="userpasswordcheck" placeholder="비밀번호를 다시 입력하세요">
                 </div>
                  <div class="form-group">
                 <h4>이름</h4>
-                  <input type="text" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="이름을 입력하세요">
+                  <input type="text" class="form-control form-control-lg" id="m_name" name="m_name" placeholder="이름을 입력하세요">
                 </div>            
                 <div class="form-group">
                 <h4>생년월일 </h4>
-                  <input type="date" class="form-control form-control-lg" id="age">
+                  <input type="date" class="form-control form-control-lg" id="m_age" name="m_age">
                 </div>
                 <div class="form-group">
                  <h4>성별 </h4>
-                  <select class="form-control form-control-lg" id="exampleFormControlSelect2">
+                  <select class="form-control form-control-lg" id="m_gender" name="m_gender">
                     <option>성별 선택하기</option>
                     <option>남</option>
                     <option>여</option>
                     <option>선택안함</option>
                   </select>
                 </div>
+                 <div class="form-group">
+                <h4>이름</h4>
+                  <input type="text" class="form-control form-control-lg" id="m_weight" name="m_weight" placeholder="체중을 입력하세요">
+                </div>    
                 <div class="form-group">
                  <h4>질환 </h4>
-                  <select class="form-control form-control-lg" id="exampleFormControlSelect2">
+                  <select class="form-control form-control-lg" id="m_disease" name="m_disease">
                     <option>해당 사항 없음</option>
                     <option>당뇨</option>
                     <option>통풍</option>
                     <option>알러지</option>
                   </select>
                 </div>             
-                                       
+                 <div class="form-group">
+                 <h4>치팅데이</h4>
+                  <select class="form-control form-control-lg" id="m_cheatingday" name="m_cheatingday">
+                    <option>해당 사항 없음</option>
+                    <option>월</option>
+                    <option>화</option>
+                    <option>수</option>
+                    <option>수</option>
+                    <option>목</option>
+                    <option>금</option>
+                    <option>토</option>
+                    <option>일</option>
+                  </select>
+                </div>                                 
                 <div class="mb-4">
                   <div class="form-check">
                     <label class="form-check-label text-muted">
@@ -80,7 +97,7 @@
                   </div>
                 </div>
                 <div class="mt-3">
-                  <a class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" href="#">회원가입</a>
+                  <input type="submit" class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" value="회원가입">
                 </div>
                 <div class="text-center mt-4 font-weight-light">
                    <a href="login.html" class="text-primary">로그인창으로 돌아가기</a>

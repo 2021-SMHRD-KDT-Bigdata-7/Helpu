@@ -3,21 +3,26 @@ package com.example.demo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.ModelAndView;
+import com.example.all.Tb_Member;
+
 
 @Controller
 public class DemoController {
-	/*
-	 * @RequestMapping("/gallery_view") public String gallery_view() { return
-	 * "gallery_view"; }
-	 */
-	/*
-	 * @RequestMapping("/diary") public String diary() { return "Mydiary"; }
-	 */
 
-	@RequestMapping("/login")
-	public String login() {
-		return "00_2login";
-	}
+	 @RequestMapping("/main") 
+	 public String main() { 
+		 return "00_1main"; 
+	 }
+	
+	
+	 @RequestMapping("/login") 
+	 public String login() { 
+		 return "00_2login"; 
+	 }
+
 
 	@RequestMapping("/join")
 	public String join() {
@@ -29,10 +34,10 @@ public class DemoController {
 		return "01home";
 	}
 	
-	@RequestMapping("/gallery")
-	public String gallery() {
-		return "02_1gallery_view";
-	}
+	/*
+	 * @RequestMapping("/gallery") public String gallery() { return
+	 * "02_1gallery_view"; }
+	 */
 	
 	@RequestMapping("/input_food")
 	public String input_food() {
