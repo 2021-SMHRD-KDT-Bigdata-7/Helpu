@@ -15,8 +15,20 @@ public class GalleryService {
 	@Autowired
     private GalleryMapper galleryMapper;
 	
-    public void galleryInsertAjax(Tb_Gallery vo) {
-    	galleryMapper.galleryInsert(vo);
+	public void fileInsertAjax(Tb_Gallery vo) {
+    	galleryMapper.fileInsert(vo);
+    }
+
+	/*
+	 * public Tb_Gallery galleryUpdateAjax1(Tb_Gallery vo) { return
+	 * galleryMapper.galleryUpdate1(vo); }
+	 */
+	 public int galleryUpdateAjax1(Tb_Gallery vo) {    	
+	    	return galleryMapper.galleryUpdate1(vo);
+	    } 
+	 
+    public void galleryUpdateAjax(Tb_Gallery vo) {
+    	galleryMapper.galleryUpdate(vo);
     }
     
     public void galleryDeleteAjax(int t_seq) {

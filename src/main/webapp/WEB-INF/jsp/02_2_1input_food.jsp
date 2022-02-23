@@ -30,6 +30,7 @@
 	function input_search() {
 		window.location.href = 'http://localhost:8090/search'
 	}
+	
 </script>
 
 </head>
@@ -524,12 +525,12 @@
 								<div class="card">
 									<div class="card-body">
 										<h4 class="card-title">오늘의 음식을 기록해보세요!</h4>
-										<form>
+										<form action="/fileInsert.do" method="post">
 											<div class="form-group">
 												<label>사진 업로드</label> 
-												<form class="forms-sample" action="${cpath}/galleryImgInsert.do" method="post">
-													<input type="file" name="img" class="file-upload-default">
-												</form>
+												<!-- <form action="02_2_2input_gallery.jsp"> -->
+													<input type="file" id="t_filename" name="t_filename" class="file-upload-default" />
+												<!-- </form> -->
 												<div class="input-group col-xs-12">
 													<input type="text" class="form-control file-upload-info"
 														disabled placeholder="음식/영수증 사진 업로드"> <span
@@ -539,7 +540,7 @@
 												</div>
 											</div>
 		
-											<button type="button" class="btn btn-info mr-2" onclick="location.href='http://localhost:8090/input_gallery'">확인</button>
+											<input type="submit" class="btn btn-info mr-2" value="확인" />
 											
 											<button class="btn btn-light">취소</button>
 										</form>
@@ -565,6 +566,7 @@
 		</div>
 		<!-- container-scroller -->
 		<!-- plugins:js -->
+
 		<script src="resources/vendors/js/vendor.bundle.base.js"></script>
 		<!-- endinject -->
 		<!-- Plugin js for this page -->

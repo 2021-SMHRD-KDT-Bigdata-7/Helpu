@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -509,7 +510,9 @@
 				</div>
 				<!-- partial -->
 				<!-- partial:../../partials/_sidebar.html -->
-
+				<%-- <div>
+					${param.t_filename}
+				</div> --%>
 				<div class="main-panel">
 					<div class="content-wrapper">
 						<div class="row">
@@ -519,7 +522,8 @@
 									<div class="card-body">
 										<h4 class="card-title">오늘의 음식을 기록해보세요!</h4>
 										<!-- 폼 태그 -->
-										<form class="forms-sample" action="${cpath}/galleryInsert.do" method="post">
+										<form class="forms-sample" action="${cpath}/galleryUpdate.do" method="post">
+											<input type="hidden" id="t_filename" name="t_filename" value="${param.t_filename}"/>
 											<div class="form-group">
 												<label for="exampleInputName1">제목</label> <input type="text"
 													class="form-control" id="t_title" name="t_title"
@@ -651,9 +655,12 @@
 												</div>
 
 											</div>
-
+											<c:forEach var="gvo" items="${getSeq}">
+											<input type="hidden" class="t_seq" name="t_seq" id="t_seq" value="${gvo.t_seq}">
+											</c:forEach>
 											<button type="submit" class="btn btn-primary mr-2">작성</button>
 											<button class="btn btn-light">취소</button>
+											
 										</form>
 									</div>
 								</div>
