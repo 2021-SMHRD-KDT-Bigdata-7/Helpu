@@ -533,7 +533,7 @@
 									<!-- 갤러리 -->
 									<div class="col-lg-4 col-md-6 portfolio-item ${gall.t_mids} wow fadeInUp">
 										<div class="portfolio-wrap">
-											<figure style="background-image: url(resources/img/portfolio/01.jpg); background-size: cover; background-repeat: no-repeat;">
+											<figure style="background-image: url(resources/img/${gall.t_filename}); background-size: cover; background-position:center; background-repeat: no-repeat;">
 												<a href="resources/img/portfolio/01.jpg"
 													data-lightbox="portfolio" data-title="App 1"
 													class="link-preview" title="Preview"><i
@@ -543,18 +543,18 @@
 											</figure>
 											<div class="portfolio-info">
 												<h4>
-													<a class="popup-with-move-anim" href=".${gall.t_title}">${gall.t_title}</a>
+													<a class="popup-with-move-anim" href=".${gall.t_seq}">${gall.t_title}</a>
 												</h4>
 												<p>1620kcal</p>
 											</div>
 											<!-- 팝업 -->
-											<div id="details-lightbox-1" class="lightbox-basic zoom-anim-dialog mfp-hide ${gall.t_title}">
+											<div id="details-lightbox-1" class="lightbox-basic zoom-anim-dialog mfp-hide ${gall.t_seq}">
 												<div class="container">
 													<div class="row">
 														<button title="Close (Esc)" type="button"
 															class="mfp-close x-button">×</button>
 														<div class="col-lg-8"
-															style="background-image: url(resources/img/portfolio/01.jpg); background-size: cover; background-repeat: no-repeat;">
+															style="background-image: url(resources/img/${gall.t_filename}); background-size: cover; background-position:center; background-repeat: no-repeat;">
 															<!-- <div class="image-container">
 															<img src="resources/img/portfolio/01.jpg" class="img-fluid"
 															alt="">

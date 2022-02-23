@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @MapperScan(value = {"com.example.all.mapper"})
-@ComponentScan(basePackages = {"com.example.all","com.example.demo","com.example.all.controller","com.example.all.service"})
+@ComponentScan(basePackages = {"com.example.all","com.example.demo","com.example.all.controller","com.example.all.service","com.example.all.fileupload"})
 public class DemoApplication {
 
 	public static void main(String[] args) {

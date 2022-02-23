@@ -3,13 +3,21 @@
   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.example.all.mapper.GalleryMapper"> 
-    <insert id="galleryInsert" parameterType="com.example.all.Tb_Gallery">
-	    insert into tb_gallery(t_title,t_date,t_mids,t_content)
-	    values(#{t_title},#{t_date},#{t_mids},#{t_content})
+	<insert id="fileInsert" parameterType="com.example.all.Tb_Gallery">
+	    insert into tb_gallery(t_filename)
+	    values(#{t_filename})
     </insert>
-    <select id="gallerySelectList" resultType="com.example.all.Tb_Gallery">
+    <update id="galleryUpdate" parameterType="com.example.all.Tb_Gallery">
+	    update tb_gallery 
+	    set t_title = #{t_title},
+	    	t_date = #{t_date},
+	    	t_mids = #{t_mids},
+	    	t_content = #{t_content}
+	    	where t_seq=#{t_seq}
+    </update>
+  <!--   <select id="gallerySelectList" resultType="com.example.all.Tb_Gallery">
     	select * from tb_gallery
-    </select>   
+    </select>    -->
  	<!-- <delete id="galleryDelete" parameterType="com.example.all.Tb_Gallery">
       delete from tb_gallery 
       where t_seq = #{t_seq}
