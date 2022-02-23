@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -377,65 +378,63 @@
 						<div class="row no-gutters">
 							<div class="col-lg-8 pr-lg-2">
 								<div class="card mb-3">
+								<c:forEach var="mp" items="${mypage}">
 									<div class="card-header">
-										<h5 class="mb-0">나민주님</h5>
+										<h5 class="mb-0">${mp.m_name}</h5>
 									</div>
 									<div class="card-body bg-light">
-										<form>
 											<div class="row">
-												<div class="col-lg-6">
-													<div class="form-group">
-														<label for="first-name">아이디</label> <input
-															class="form-control" id="first-name" type="text"
-															value="skalswn1995">
+													<div class="col-lg-6">
+														<div class="form-group">
+															<label for="first-name">아이디</label> 
+															<input class="form-control" id="m_id" name="m_id" type="text" value="${mp.m_id}">
+														</div>
+														
 													</div>
-												</div>
-												<div class="col-lg-6">
-													<div class="form-group">
-														<label for="last-name">password</label> <input
-															class="form-control" id="last-name" type="password"
-															value="password">
+													<div class="col-lg-6">
+														<div class="form-group">
+															<label for="last-name">password</label> 
+															<input class="form-control" id="m_pw" name = "m_pw" type="password">
+														</div>
 													</div>
-												</div>
-												<div class="col-lg-6">
-													<div class="form-group">
-														<label for="email1">이메일</label> <input
-															class="form-control" id="email1" type="text"
-															value="anthony@gmail.com">
+													<div class="col-lg-6">
+														<div class="form-group">
+															<label for="email1">치팅데이</label> <input
+																class="form-control" id="m_cheatingday" name="m_cheatingday" type="text">
+														</div>
 													</div>
-												</div>
-												<div class="col-lg-6">
-													<div class="form-group">
-														<label for="phone">전화번호</label> <input
-															class="form-control" id="phone" type="text"
-															value="01084244796">
+													<div class="col-lg-6">
+														<div class="form-group">
+															<label for="phone">몸무게</label> <input
+																class="form-control" id="m_weight" name = "m_weight" type="text">
+														</div>
 													</div>
-												</div>
-												<div class="col-12">
-													<div class="form-group">
-														<label for="heading">나의 건강</label> 
-															<select class="form-control" name='ill'>
-															<option value='none'>없음</option>
-															<option value='highbloodpressure'>고혈압</option>
-														    <option value='dang'>당뇨</option>
-															<option value='allergy'>알러지</option>
-															</select>												
+													<div class="col-12">
+														<div class="form-group">
+															<label for="heading">나의 건강</label> 
+																<select class="form-control" name='m_disease'>
+																<option value='empty'>없음</option>
+																<option value='highbloodp'>고혈압</option>
+															    <option value='dang'>당뇨</option>
+																<option value='allergy'>알러지</option>
+																</select>												
+														</div>
 													</div>
-												</div>
-												<div class="col-12">
-													<div class="form-group">
-														<label for="intro">메모</label>
-														<textarea class="form-control" id="intro" name="intro"
-															cols="30" rows="13">같이 건강 신경쓰면서 맛있는거 먹을 친구 찾아요</textarea>
+													<div class="col-12">
+														<div class="form-group">
+															<label for="intro">메모</label>
+															<textarea class="form-control" id="intro" name="intro"
+																cols="30" rows="13">같이 건강 신경쓰면서 맛있는거 먹을 친구 찾아요</textarea>
+														</div>
 													</div>
-												</div>
-												<div class="col-12 d-flex justify-content-end">
-													<button class="btn btn-primary" type="submit">Update
-													</button>
-												</div>
+													<div class="col-12 d-flex justify-content-end">
+														<button class="btn btn-primary" type="submit">Update
+														</button>
+													</div>
 											</div>
-										</form>
 									</div>
+								
+								</c:forEach>
 								</div>															
 							</div>
 							<div class="col-lg-4 pl-lg-2">
