@@ -389,7 +389,7 @@
 													<div class="form-group">
 														<label for="first-name">아이디</label> <input
 															class="form-control"  type="text" id="m_id"  name="m_id"
-															value="skalswn1995">
+															value="AD1">
 													</div>
 												</div>
 												<div class="col-lg-6">
@@ -403,14 +403,14 @@
 													<div class="form-group">
 														<label for="email1">이메일</label> <input
 															class="form-control" id="email1" type="text"
-															value="anthony@gmail.com">
+															value="ah2378@gmail.com">
 													</div>
 												</div>
 												<div class="col-lg-6">
 													<div class="form-group">
 														<label for="phone">전화번호</label> <input
 															class="form-control" id="phone" type="text"
-															value="01084244796">
+															value="01082849765">
 													</div>
 												</div>
 												<div class="col-12">
@@ -432,8 +432,8 @@
 													</div>
 												</div>
 												<div class="col-12 d-flex justify-content-end">
-													<button class="btn btn-primary" type="submit" onclick="location.href='05_1mypage2.jsp'">Update
-													</button>
+													<a href="http://localhost:8090/mypageupdate" type="submit" class="btn btn-primary">Update
+													</a>
 													<!--onclick="location='05_1mypage.jsp'"  -->
 												</div>
 											</div>
