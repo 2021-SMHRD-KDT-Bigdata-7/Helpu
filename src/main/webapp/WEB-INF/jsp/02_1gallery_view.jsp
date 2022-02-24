@@ -538,7 +538,7 @@
 													data-lightbox="portfolio" data-title="App 1"
 													class="link-preview" title="Preview"><i
 													class="ion ion-eye"></i></a>
-												<a href="#" class="link-details" title="More Details"><i
+												<a href=".${gall.t_seq}" class="popup-with-move-anim" title="More Details"><i
 													class="ion ion-android-open"></i></a>
 											</figure>
 											<div class="portfolio-info">

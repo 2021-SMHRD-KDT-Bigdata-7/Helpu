@@ -378,7 +378,7 @@
 						<div class="row no-gutters">
 							<div class="col-lg-8 pr-lg-2">
 								<div class="card mb-3">
-								<c:forEach var="mp" items="${mypage}">
+<%-- 								<c:forEach var="mp" items="${mypage}"> --%>
 									<div class="card-header">
 										<h5 class="mb-0"></h5>
 									</div>
@@ -434,7 +434,7 @@
 											</div>
 									</div>
 								
-								</c:forEach>
+								<%-- </c:forEach> --%>
 								</div>															
 							</div>
 							<div class="col-lg-4 pl-lg-2">

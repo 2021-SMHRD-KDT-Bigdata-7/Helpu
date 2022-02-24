@@ -34,7 +34,7 @@
 <!--calendar  -->
 <script type="text/javascript">
 	function input_food() {
-		window.location.href = 'http://localhost:8090/input_food'
+		window.location.href = 'http://172.30.1.58:5000/'
 	}
 </script>
 <link href='resources/lib/main2.css' rel='stylesheet' />

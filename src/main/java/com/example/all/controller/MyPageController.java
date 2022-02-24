@@ -31,9 +31,8 @@ public class MyPageController {
 //        System.out.print(mypage.size();
         
     	@RequestMapping("/mypage") 
-    	public String mypage(Tb_Member vo, HttpSession session, Model model) {
-    		service.mypageListAjex();
-    		
+    	public String mypage() {
+			/* service.mypageListAjex();   Tb_Member vo, HttpSession session, Model model*/
         return "05_1mypage";
     }
 }
