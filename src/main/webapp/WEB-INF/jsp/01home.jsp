@@ -270,7 +270,7 @@
 								<i class="ti-control-record text-primary mr-2"></i> <span>2022/02/25</span>
 							</div>
 							<p class="mb-0 font-weight-thin text-gray">최종발표일</p>
-							<p class="text-gray mb-0 ">24일인지 25일인지 햇갈림</p>
+							<p class="text-gray mb-0 ">24일</p>
 						</div>
 					</div>
 
@@ -299,7 +299,7 @@
 								<li class="nav-item"><a class="nav-link"
 									href="http://localhost:8090/input_food">다이어리 작성하기</a></li>
 								<li class="nav-item"><a class="nav-link"
-									href="http://localhost:8090/calendar">나의 일정(캘린더)</a></li>
+									href="http://localhost:8090/calendar">나의 일정</a></li>
 							</ul>
 						</div></li>
 
@@ -347,13 +347,15 @@
 													class="btn btn-sm btn-light bg-white dropdown-toggle"
 													type="button" id="dropdownMenuDate2" data-toggle="dropdown"
 													aria-haspopup="true" aria-expanded="true">
-													<i class="mdi mdi-calendar"></i> 아침
-												</button>
+													아침
+<!-- 													<i class="mdi mdi-calendar"></i> 
+ -->											</button>
 												<div class="dropdown-menu dropdown-menu-right"
 													aria-labelledby="dropdownMenuDate2">
-													<a class="dropdown-item" href="#">점심</a> <a
-														class="dropdown-item" href="#">간식</a> <a
-														class="dropdown-item" href="#">저녁</a>
+													<a class="dropdown-item" href="#">아침</a>
+													<a class="dropdown-item" href="#">점심</a> 
+													<a class="dropdown-item" href="#">간식</a> 
+													<a class="dropdown-item" href="#">저녁</a>
 												</div>
 											</div>
 
@@ -369,13 +371,12 @@
 							<div class="card position-relative">
 								<div class="card-body">
 
-									
-									
+															
 									
 								</div>
 							</div>
 						</div>
-					</div> -->
+					</div> --> -->
 					<!-- 이식용 -->
 					<!-- s -->
 					<div class="row">
@@ -417,7 +418,7 @@
 
 																				</div>
 																			</td>
-																			<td><h5 class="font-weight-bold mb-0">713</h5></td>
+																			<td><h5 class="font-weight-bold mb-0">270</h5></td>
 																		</tr>
 																		<tr>
 																			<td class="text-muted">단백질</td>
@@ -428,7 +429,7 @@
 																						aria-valuemin="0" aria-valuemax="100"></div>
 																				</div>
 																			</td>
-																			<td><h5 class="font-weight-bold mb-0">583</h5></td>
+																			<td><h5 class="font-weight-bold mb-0">53</h5></td>
 																		</tr>
 																		<tr>
 																			<td class="text-muted">불포화지방</td>
@@ -439,7 +440,7 @@
 																						aria-valuemin="0" aria-valuemax="100"></div>
 																				</div>
 																			</td>
-																			<td><h5 class="font-weight-bold mb-0">924</h5></td>
+																			<td><h5 class="font-weight-bold mb-0">24</h5></td>
 																		</tr>
 																		<tr>
 																			<td class="text-muted">포화지방</td>
@@ -450,7 +451,7 @@
 																						aria-valuemin="0" aria-valuemax="100"></div>
 																				</div>
 																			</td>
-																			<td><h5 class="font-weight-bold mb-0">664</h5></td>
+																			<td><h5 class="font-weight-bold mb-0">14</h5></td>
 																		</tr>
 																		<tr>
 																			<td class="text-muted">나트륨</td>
@@ -461,7 +462,7 @@
 																						aria-valuemin="0" aria-valuemax="100"></div>
 																				</div>
 																			</td>
-																			<td><h5 class="font-weight-bold mb-0">560</h5></td>
+																			<td><h5 class="font-weight-bold mb-0">2560</h5></td>
 																		</tr>
 																		<tr>
 																			<td class="text-muted">당분</td>
@@ -473,7 +474,7 @@
 																						aria-valuemax="100"></div>
 																				</div>
 																			</td>
-																			<td><h5 class="font-weight-bold mb-0">793</h5></td>
+																			<td><h5 class="font-weight-bold mb-0">63</h5></td>
 																		</tr>
 																	</table>
 																</div>
@@ -481,6 +482,8 @@
 
 
 															<div class="col-md-6 mt-3">
+<!-- 															    <div class="echart-bandwidth-saved" data-echart-responsive="true"></div>
+ -->															
 																<canvas id="south-america-chart"></canvas>
 																<%-- <canvas id="doughnutChart_morning"></canvas> --%>
 																<div id="north-america-legend"></div>
@@ -802,7 +805,7 @@
 
 											<!--  -->
 										</div>
-										<!-- <a class="carousel-control-prev" href="#detailedReports"
+										 <a class="carousel-control-prev" href="#detailedReports"
 											role="button" data-slide="prev"> <span
 											class="carousel-control-prev-icon" aria-hidden="true"></span>
 											<span class="sr-only">Previous</span>
@@ -810,7 +813,7 @@
 											role="button" data-slide="next"> <span
 											class="carousel-control-next-icon" aria-hidden="true"></span>
 											<span class="sr-only">Next</span>
-										</a> -->
+										</a> 
 									</div>
 								</div>
 							</div>
@@ -823,7 +826,7 @@
 						<div class="col-lg-6 pe-lg-2 mb-3">
 							<div class="card">
 								<div class="card-body">
-									<p class="card-title">이번 주 섭취량? 아니면 그냥 7일 단위?</p>
+									<p class="card-title">이번 주 칼로리 섭취량</p>
 									<!--  <a href="#" class="text-info">몸무게 입력하러가기</a> -->
 									<canvas id="areaChart"></canvas>
 								</div>
@@ -981,6 +984,21 @@
 		<!-- Custom js for this page-->
 		<script src="resources/js/dashboard.js"></script>
 		<script src="resources/js/Chart.roundedBarCharts.js"></script>
+		
+	<!-- 	<script src="html/public/assets/js/config.js"></script>
+		<script src="html/public/vendors/popper/popper.min.js"></script>
+    	<script src="html/public/vendors/bootstrap/bootstrap.min.js"></script>
+    	<script src="html/public/vendors/anchorjs/anchor.min.js"></script>
+    	<script src="html/public/vendors/is/is.min.js"></script>
+    	<script src="html/public/vendors/echarts/echarts.min.js"></script>
+    	<script src="html/public/vendors/fontawesome/all.min.js"></script>
+    	<script src="html/public/vendors/lodash/lodash.min.js"></script>
+    	<script src="html/public/vendors/list.js/list.min.js"></script>
+    	<script src="html/public/assets/js/theme.js"></script> -->
+		
+		
+		
+		
 		<!-- End custom js for this page-->
 </body>
 <%--<canvas id="barChart"></canvas> --%>

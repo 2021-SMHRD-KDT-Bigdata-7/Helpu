@@ -476,9 +476,9 @@
 
     if ($("#south-america-chart").length) {
       var areaData = {
-        labels: ["현재", "목표"],
+        labels: ["현재","목표"],
         datasets: [{
-            data: [60, 70],
+            data: [76, 65],
             backgroundColor: [
               "#4B49AC","#FFC100",
             ],

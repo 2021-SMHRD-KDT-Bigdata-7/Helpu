@@ -311,7 +311,7 @@
 								<li class="nav-item"><a class="nav-link"
 									href="http://localhost:8090/input_food">다이어리 작성하기</a></li>
 								<li class="nav-item"><a class="nav-link"
-									href="http://localhost:8090/calendar">나의 일정(캘린더)</a></li>
+									href="http://localhost:8090/calendar">나의 일정</a></li>
 							</ul>
 						</div></li>
 					<li class="nav-item"><a class="nav-link"

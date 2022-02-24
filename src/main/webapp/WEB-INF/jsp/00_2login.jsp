@@ -51,7 +51,7 @@ $(document).ready(function() {
                 <img src="resources/images/logos.png" alt="logo">
               </div>
               <!-- <h6 class="font-weight-light">로그인</h6> -->
-              <form class="pt-3" id="loginform" method="post" action="/dologin">">
+              <form class="pt-3" id="loginform" method="post" action="/dologin">
                 <div class="form-group">
 
                   <input type="text" class="form-control form-control-lg" id="username" placeholder="Username" name="id">

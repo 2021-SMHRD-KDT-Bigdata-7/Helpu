@@ -332,7 +332,7 @@
 								<li class="nav-item"><a class="nav-link"
 									href="http://localhost:8090/input_food">다이어리 작성하기</a></li>
 								<li class="nav-item"><a class="nav-link"
-									href="http://localhost:8090/calendar">나의 일정(캘린더)</a></li>
+									href="http://localhost:8090/calendar">나의 일정</a></li>
 							</ul>
 						</div></li>
 					<li class="nav-item"><a class="nav-link"
@@ -400,7 +400,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="card-footer text-end bg-transparent light"><a class="text-white" href="#!">수정하기<span class="fa fa-chevron-right ms-1 fs--1"></span></a></div>
+                <div class="card-footer text-end bg-transparent light"><a class="text-white" href="/mypage">수정하기<span class="fa fa-chevron-right ms-1 fs--1"></span></a></div>
               </div>
             </div>
             <div class="col-xxl-8">
@@ -410,16 +410,16 @@
                     <li class="nav-item" role="presentation"><a class="nav-link mb-0 active" id="users-tab" data-bs-toggle="tab" href="#users" role="tab" aria-controls="users" aria-selected="true">
                         <div class="audience-tab-item p-2 pe-4">
                           <h6 class="text-800 fs--2 text-nowrap">몸무게</h6>
-                          <h5 class="text-800">77.9kg</h5>
+                          <h5 class="text-800">76.4kg</h5>
                           <div class="d-flex align-items-center"><span class="fas fa-caret-up text-warning"></span>
-                            <h6 class="fs--2 mb-0 ms-2 text-warning">22.0%</h6>
+                            <h6 class="fs--2 mb-0 ms-2 text-warning">- 22.0%</h6>
                           </div>
                         </div>
                       </a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link mb-0" id="sessions-tab" data-bs-toggle="tab" href="#sessions" role="tab" aria-controls="sessions" aria-selected="false">
                         <div class="audience-tab-item p-2 pe-4">
                           <h6 class="text-800 fs--2 text-nowrap">칼로리</h6>
-                          <h5 class="text-800">538kcal</h5>
+                          <h5 class="text-800">1806kcal</h5>
                           <div class="d-flex align-items-center"><span class="fas fa-caret-down text-warning"></span>
                             <h6 class="fs--2 mb-0 ms-2 text-warning">46.2%</h6>
                           </div>
@@ -516,81 +516,81 @@
                       <tbody class="list">
                         <tr class="btn-reveal-trigger">
                           <td class="align-middle white-space-nowrap path"><a class="text-primary fw-semi-bold" href="#!">김치찌개</a></td>
-                          <td class="align-middle white-space-nowrap views text-end">1455kcal</td>
-                          <td class="align-middle white-space-nowrap time text-end">2m:25s</td>
-                          <td class="align-middle text-end exitRate text-end pe-card">40.4%</td>
+                          <td class="align-middle white-space-nowrap views text-end">230kcal</td>
+                          <td class="align-middle white-space-nowrap time text-end">2022/02/23</td>
+                          <td class="align-middle text-end exitRate text-end pe-card">20.4%</td>
                         </tr>
                         <tr class="btn-reveal-trigger">
-                          <td class="align-middle white-space-nowrap path"><a class="text-primary fw-semi-bold" href="#!">김치찌개</a></td>
-                          <td class="align-middle white-space-nowrap views text-end">1455kcal</td>
-                          <td class="align-middle white-space-nowrap time text-end">2m:25s</td>
-                          <td class="align-middle text-end exitRate text-end pe-card">40.4%</td>
+                          <td class="align-middle white-space-nowrap path"><a class="text-primary fw-semi-bold" href="#!">빅맥</a></td>
+                          <td class="align-middle white-space-nowrap views text-end">234kcal</td>
+                          <td class="align-middle white-space-nowrap time text-end">2022/02/21</td>
+                          <td class="align-middle text-end exitRate text-end pe-card">10.2%</td>
                         </tr>
                        <tr class="btn-reveal-trigger">
-                          <td class="align-middle white-space-nowrap path"><a class="text-primary fw-semi-bold" href="#!">김치찌개</a></td>
-                          <td class="align-middle white-space-nowrap views text-end">1455kcal</td>
-                          <td class="align-middle white-space-nowrap time text-end">2m:25s</td>
-                          <td class="align-middle text-end exitRate text-end pe-card">40.4%</td>
+                          <td class="align-middle white-space-nowrap path"><a class="text-primary fw-semi-bold" href="#!">카레라이스</a></td>
+                          <td class="align-middle white-space-nowrap views text-end">135kcal</td>
+                          <td class="align-middle white-space-nowrap time text-end">2022/02/20</td>
+                          <td class="align-middle text-end exitRate text-end pe-card">8.4%</td>
                         </tr>
                         <tr class="btn-reveal-trigger">
-                          <td class="align-middle white-space-nowrap path"><a class="text-primary fw-semi-bold" href="#!">김치찌개</a></td>
-                          <td class="align-middle white-space-nowrap views text-end">1455kcal</td>
-                          <td class="align-middle white-space-nowrap time text-end">2m:25s</td>
-                          <td class="align-middle text-end exitRate text-end pe-card">40.4%</td>
+                          <td class="align-middle white-space-nowrap path"><a class="text-primary fw-semi-bold" href="#!">탕수육</a></td>
+                          <td class="align-middle white-space-nowrap views text-end">124kcal</td>
+                          <td class="align-middle white-space-nowrap time text-end">2022/02/23</td>
+                          <td class="align-middle text-end exitRate text-end pe-card">6.1%</td>
                         </tr>
                         <tr class="btn-reveal-trigger">
-                          <td class="align-middle white-space-nowrap path"><a class="text-primary fw-semi-bold" href="#!">김치찌개</a></td>
-                          <td class="align-middle white-space-nowrap views text-end">1455kcal</td>
-                          <td class="align-middle white-space-nowrap time text-end">2m:25s</td>
-                          <td class="align-middle text-end exitRate text-end pe-card">40.4%</td>
+                          <td class="align-middle white-space-nowrap path"><a class="text-primary fw-semi-bold" href="#!">참치김밥</a></td>
+                          <td class="align-middle white-space-nowrap views text-end">155kcal</td>
+                          <td class="align-middle white-space-nowrap time text-end">2022/02/19</td>
+                          <td class="align-middle text-end exitRate text-end pe-card">7.2%</td>
                         </tr>
                        <tr class="btn-reveal-trigger">
-                          <td class="align-middle white-space-nowrap path"><a class="text-primary fw-semi-bold" href="#!">김치찌개</a></td>
-                          <td class="align-middle white-space-nowrap views text-end">1455kcal</td>
-                          <td class="align-middle white-space-nowrap time text-end">2m:25s</td>
-                          <td class="align-middle text-end exitRate text-end pe-card">40.4%</td>
+                          <td class="align-middle white-space-nowrap path"><a class="text-primary fw-semi-bold" href="#!">김치볶음밥</a></td>
+                          <td class="align-middle white-space-nowrap views text-end">182kcal</td>
+                          <td class="align-middle white-space-nowrap time text-end">2022/02/17</td>
+                          <td class="align-middle text-end exitRate text-end pe-card">5.3%</td>
                         </tr>
                         <tr class="btn-reveal-trigger">
-                          <td class="align-middle white-space-nowrap path"><a class="text-primary fw-semi-bold" href="#!">김치찌개</a></td>
-                          <td class="align-middle white-space-nowrap views text-end">1455kcal</td>
-                          <td class="align-middle white-space-nowrap time text-end">2m:25s</td>
-                          <td class="align-middle text-end exitRate text-end pe-card">40.4%</td>
+                          <td class="align-middle white-space-nowrap path"><a class="text-primary fw-semi-bold" href="#!">매실</a></td>
+                          <td class="align-middle white-space-nowrap views text-end">174kcal</td>
+                          <td class="align-middle white-space-nowrap time text-end">2022/02/22</td>
+                          <td class="align-middle text-end exitRate text-end pe-card">4.2%</td>
                         </tr>
                         <tr class="btn-reveal-trigger">
-                          <td class="align-middle white-space-nowrap path"><a class="text-primary fw-semi-bold" href="#!">김치찌개</a></td>
-                          <td class="align-middle white-space-nowrap views text-end">1455kcal</td>
-                          <td class="align-middle white-space-nowrap time text-end">2m:25s</td>
-                          <td class="align-middle text-end exitRate text-end pe-card">40.4%</td>
+                          <td class="align-middle white-space-nowrap path"><a class="text-primary fw-semi-bold" href="#!">짜장면</a></td>
+                          <td class="align-middle white-space-nowrap views text-end">125kcal</td>
+                          <td class="align-middle white-space-nowrap time text-end">2022/02/10</td>
+                          <td class="align-middle text-end exitRate text-end pe-card">4.2%</td>
                         </tr>
                         <tr class="btn-reveal-trigger">
-                          <td class="align-middle white-space-nowrap path"><a class="text-primary fw-semi-bold" href="#!">김치찌개</a></td>
-                          <td class="align-middle white-space-nowrap views text-end">1455kcal</td>
-                          <td class="align-middle white-space-nowrap time text-end">2m:25s</td>
-                          <td class="align-middle text-end exitRate text-end pe-card">40.4%</td>
+                          <td class="align-middle white-space-nowrap path"><a class="text-primary fw-semi-bold" href="#!">김밥</a></td>
+                          <td class="align-middle white-space-nowrap views text-end">835kcal</td>
+                          <td class="align-middle white-space-nowrap time text-end">2022/02/18</td>
+                          <td class="align-middle text-end exitRate text-end pe-card">3.4%</td>
                         </tr>
                         <tr class="btn-reveal-trigger">
-                          <td class="align-middle white-space-nowrap path"><a class="text-primary fw-semi-bold" href="#!">김치찌개</a></td>
-                          <td class="align-middle white-space-nowrap views text-end">1455kcal</td>
-                          <td class="align-middle white-space-nowrap time text-end">2m:25s</td>
-                          <td class="align-middle text-end exitRate text-end pe-card">40.4%</td>
+                          <td class="align-middle white-space-nowrap path"><a class="text-primary fw-semi-bold" href="#!">참치볶음밥</a></td>
+                          <td class="align-middle white-space-nowrap views text-end">455kcal</td>
+                          <td class="align-middle white-space-nowrap time text-end">2022/02/02</td>
+                          <td class="align-middle text-end exitRate text-end pe-card">1.2%</td>
                         </tr>
                         <tr class="btn-reveal-trigger">
-                          <td class="align-middle white-space-nowrap path"><a class="text-primary fw-semi-bold" href="#!">김치찌개</a></td>
-                          <td class="align-middle white-space-nowrap views text-end">1455kcal</td>
-                          <td class="align-middle white-space-nowrap time text-end">2m:25s</td>
-                          <td class="align-middle text-end exitRate text-end pe-card">40.4%</td>
+                          <td class="align-middle white-space-nowrap path"><a class="text-primary fw-semi-bold" href="#!">해물파전</a></td>
+                          <td class="align-middle white-space-nowrap views text-end">355kcal</td>
+                          <td class="align-middle white-space-nowrap time text-end">2022/02/11</td>
+                          <td class="align-middle text-end exitRate text-end pe-card">0.4%</td>
                         </tr>
                         <tr class="btn-reveal-trigger">
-                          <td class="align-middle white-space-nowrap path"><a class="text-primary fw-semi-bold" href="#!">김치찌개</a></td>
-                          <td class="align-middle white-space-nowrap views text-end">1455kcal</td>
-                          <td class="align-middle white-space-nowrap time text-end">2m:25s</td>
-                          <td class="align-middle text-end exitRate text-end pe-card">40.4%</td>
+                          <td class="align-middle white-space-nowrap path"><a class="text-primary fw-semi-bold" href="#!">김치전</a></td>
+                          <td class="align-middle white-space-nowrap views text-end">455kcal</td>
+                          <td class="align-middle white-space-nowrap time text-end">2022/01/31</td>
+                          <td class="align-middle text-end exitRate text-end pe-card">0.3%</td>
                         </tr>
                         <tr class="btn-reveal-trigger">
-                          <td class="align-middle white-space-nowrap path"><a class="text-primary fw-semi-bold" href="#!">김치찌개</a></td>
-                          <td class="align-middle white-space-nowrap views text-end">1455kcal</td>
-                          <td class="align-middle white-space-nowrap time text-end">2m:25s</td>
-                          <td class="align-middle text-end exitRate text-end pe-card">40.4%</td>
+                          <td class="align-middle white-space-nowrap path"><a class="text-primary fw-semi-bold" href="#!">파전</a></td>
+                          <td class="align-middle white-space-nowrap views text-end">755kcal</td>
+                          <td class="align-middle white-space-nowrap time text-end">2022/01/28</td>
+                          <td class="align-middle text-end exitRate text-end pe-card">0.1%</td>
                         </tr>
                       </tbody>
                     </table>
@@ -648,12 +648,12 @@
                           </td>
                           <td class="py-3">
                             <div class="d-flex align-items-center"><span class="fas fa-circle fs--2 me-2 text-primary"></span>
-                              <h6 class="fw-normal text-700 mb-0">50.3%</h6>
+                              <h6 class="fw-normal text-700 mb-0">170.3%</h6>
                             </div>
                           </td>
                           <td class="py-3">
                             <div class="d-flex align-items-center justify-content-end"><span class="fas fa-caret-down text-danger"></span>
-                              <h6 class="fs--2 mb-0 ms-2 text-700">2.9%</h6>
+                              <h6 class="fs--2 mb-0 ms-2 text-700">15.3%</h6>
                             </div>
                           </td>
                         </tr>
@@ -663,7 +663,7 @@
                           </td>
                           <td class="py-3">
                             <div class="d-flex align-items-center"><span class="fas fa-circle fs--2 me-2 text-success"></span>
-                              <h6 class="fw-normal text-700 mb-0">30.1%</h6>
+                              <h6 class="fw-normal text-700 mb-0">153.2%</h6>
                             </div>
                           </td>
                           <td class="py-3">
@@ -678,12 +678,12 @@
                           </td>
                           <td class="py-3">
                             <div class="d-flex align-items-center"><span class="fas fa-circle fs--2 me-2 text-info"></span>
-                              <h6 class="fw-normal text-700 mb-0">20.6%</h6>
+                              <h6 class="fw-normal text-700 mb-0">90.6%</h6>
                             </div>
                           </td>
                           <td class="py-3">
                             <div class="d-flex align-items-center justify-content-end"><span class="fas fa-caret-up text-success"></span>
-                              <h6 class="fs--2 mb-0 ms-2 text-700">220.7%</h6>
+                              <h6 class="fs--2 mb-0 ms-2 text-700">-20.7%</h6>
                             </div>
                           </td>
                         </tr>
@@ -693,12 +693,12 @@
                           </td>
                           <td class="py-3">
                             <div class="d-flex align-items-center"><span class="fas fa-circle fs--2 me-2 text-300"></span>
-                              <h6 class="fw-normal text-700 mb-0">20.6%</h6>
+                              <h6 class="fw-normal text-700 mb-0">40.6%</h6>
                             </div>
                           </td>
                           <td class="py-3">
                             <div class="d-flex align-items-center justify-content-end"><span class="fas fa-caret-up text-success"></span>
-                              <h6 class="fs--2 mb-0 ms-2 text-700">220.7%</h6>
+                              <h6 class="fs--2 mb-0 ms-2 text-700">-15.7%</h6>
                             </div>
                           </td>
                         </tr>
@@ -708,12 +708,12 @@
                           </td>
                           <td class="py-3">
                             <div class="d-flex align-items-center"><span class="fas fa-circle fs--2 me-2 text-warning"></span>
-                              <h6 class="fw-normal text-700 mb-0">20.6%</h6>
+                              <h6 class="fw-normal text-700 mb-0">160.4%</h6>
                             </div>
                           </td>
                           <td class="py-3">
                             <div class="d-flex align-items-center justify-content-end"><span class="fas fa-caret-up text-success"></span>
-                              <h6 class="fs--2 mb-0 ms-2 text-700">220.7%</h6>
+                              <h6 class="fs--2 mb-0 ms-2 text-700">20.7%</h6>
                             </div>
                           </td>
                         </tr>
@@ -723,12 +723,12 @@
                           </td>
                           <td class="py-3">
                             <div class="d-flex align-items-center"><span class="fas fa-circle fs--2 me-2 text-secondary"></span>
-                              <h6 class="fw-normal text-700 mb-0">20.6%</h6>
+                              <h6 class="fw-normal text-700 mb-0">190%</h6>
                             </div>
                           </td>
                           <td class="py-3">
                             <div class="d-flex align-items-center justify-content-end"><span class="fas fa-caret-up text-success"></span>
-                              <h6 class="fs--2 mb-0 ms-2 text-700">220.7%</h6>
+                              <h6 class="fs--2 mb-0 ms-2 text-700">20.7%</h6>
                             </div>
                           </td>
                         </tr>
