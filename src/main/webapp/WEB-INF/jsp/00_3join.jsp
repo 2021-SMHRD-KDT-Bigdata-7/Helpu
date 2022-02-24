@@ -62,8 +62,8 @@
                   </select>
                 </div>
                  <div class="form-group">
-                <h4>이름</h4>
-                  <input type="text" class="form-control form-control-lg" id="m_weight" name="m_weight" placeholder="체중을 입력하세요">
+                <h4>체중</h4>
+                  <input type="number" class="form-control form-control-lg" id="m_weight" name="m_weight" placeholder="체중을 입력하세요">
                 </div>    
                 <div class="form-group">
                  <h4>질환 </h4>
@@ -80,8 +80,7 @@
                     <option>해당 사항 없음</option>
                     <option>월</option>
                     <option>화</option>
-                    <option>수</option>
-                    <option>수</option>
+                    <option>수</option>                   
                     <option>목</option>
                     <option>금</option>
                     <option>토</option>

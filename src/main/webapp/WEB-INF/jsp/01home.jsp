@@ -299,6 +299,8 @@
 								<li class="nav-item"><a class="nav-link"
 									href="http://localhost:8090/input_food">다이어리 작성하기</a></li>
 								<li class="nav-item"><a class="nav-link"
+									href="https://discord.com/channels/938289908211155015/938289908211155019">음식 추천 받기</a></li>	
+								<li class="nav-item"><a class="nav-link"
 									href="http://localhost:8090/calendar">나의 일정</a></li>
 							</ul>
 						</div></li>
@@ -348,8 +350,8 @@
 													type="button" id="dropdownMenuDate2" data-toggle="dropdown"
 													aria-haspopup="true" aria-expanded="true">
 													아침
-<!-- 													<i class="mdi mdi-calendar"></i> 
- -->											</button>
+<!-- 													<i class="mdi mdi-calendar"></i>  -->
+											</button>
 												<div class="dropdown-menu dropdown-menu-right"
 													aria-labelledby="dropdownMenuDate2">
 													<a class="dropdown-item" href="#">아침</a>
@@ -376,7 +378,7 @@
 								</div>
 							</div>
 						</div>
-					</div> --> -->
+					</div> -->
 					<!-- 이식용 -->
 					<!-- s -->
 					<div class="row">
@@ -393,7 +395,7 @@
 														class="col-md-12 col-xl-3 d-flex flex-column justify-content-start">
 														<div class="ml-xl-4 mt-3">
 															<p class="card-title">아침</p>
-															<h1 class="text-primary">2450kcal</h1>
+															<h1 class="text-primary">1250kcal</h1>
 															<!-- <h3 class="font-weight-500 mb-xl-4 text-primary"></h3> -->
 															<h3 class="mb-2 mb-xl-0">
 																김치찌게/계란후라이/스팸
@@ -412,7 +414,7 @@
 																				<div class="progress progress-md mx-4">
 																					<!--                                           <div class="progress-bar bg-primary" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
  -->
-																					<div class="progress-bar bg-tan" role="progressbar"
+																					<div class="progress-bar bg-primary" role="progressbar"
 																						style="width: 70%" aria-valuenow="70"
 																						aria-valuemin="0" aria-valuemax="100"></div>
 
@@ -424,7 +426,7 @@
 																			<td class="text-muted">단백질</td>
 																			<td class="w-100 px-0">
 																				<div class="progress progress-md mx-4">
-																					<div class="progress-bar bg-dan" role="progressbar"
+																					<div class="progress-bar bg-warning" role="progressbar"
 																						style="width: 30%" aria-valuenow="30"
 																						aria-valuemin="0" aria-valuemax="100"></div>
 																				</div>
@@ -435,7 +437,7 @@
 																			<td class="text-muted">불포화지방</td>
 																			<td class="w-100 px-0">
 																				<div class="progress progress-md mx-4">
-																					<div class="progress-bar bg-bul" role="progressbar"
+																					<div class="progress-bar bg-danger" role="progressbar"
 																						style="width: 95%" aria-valuenow="95"
 																						aria-valuemin="0" aria-valuemax="100"></div>
 																				</div>
@@ -446,7 +448,7 @@
 																			<td class="text-muted">포화지방</td>
 																			<td class="w-100 px-0">
 																				<div class="progress progress-md mx-4">
-																					<div class="progress-bar bg-po" role="progressbar"
+																					<div class="progress-bar bg-info" role="progressbar"
 																						style="width: 60%" aria-valuenow="60"
 																						aria-valuemin="0" aria-valuemax="100"></div>
 																				</div>
@@ -457,7 +459,7 @@
 																			<td class="text-muted">나트륨</td>
 																			<td class="w-100 px-0">
 																				<div class="progress progress-md mx-4">
-																					<div class="progress-bar bg-na" role="progressbar"
+																					<div class="progress-bar bg-primary" role="progressbar"
 																						style="width: 40%" aria-valuenow="40"
 																						aria-valuemin="0" aria-valuemax="100"></div>
 																				</div>
@@ -484,8 +486,7 @@
 															<div class="col-md-6 mt-3">
 <!-- 															    <div class="echart-bandwidth-saved" data-echart-responsive="true"></div>
  -->															
-																<canvas id="south-america-chart"></canvas>
-																<%-- <canvas id="doughnutChart_morning"></canvas> --%>
+																<canvas id="south-america-chart_mr"></canvas>
 																<div id="north-america-legend"></div>
 															</div>
 														</div>
@@ -498,10 +499,10 @@
 														class="col-md-12 col-xl-3 d-flex flex-column justify-content-start">
 														<div class="ml-xl-4 mt-3">
 															<p class="card-title">점심</p>
-															<h1 class="text-primary">2450kcal</h1>
+															<h1 class="text-primary">1450kcal</h1>
 															<!-- <h3 class="font-weight-500 mb-xl-4 text-primary"></h3> -->
 															<h3 class="mb-2 mb-xl-0">
-																김치찌게/계란후라이/스팸
+																짜장면/탕수육/동파육
 																</p>
 														</div>
 													</div>
@@ -520,19 +521,19 @@
 																						aria-valuemax="100"></div>
 																				</div>
 																			</td>
-																			<td><h5 class="font-weight-bold mb-0">713</h5></td>
+																			<td><h5 class="font-weight-bold mb-0">413</h5></td>
 																		</tr>
 																		<tr>
 																			<td class="text-muted">단백질</td>
 																			<td class="w-100 px-0">
 																				<div class="progress progress-md mx-4">
 																					<div class="progress-bar bg-warning"
-																						role="progressbar" style="width: 30%"
+																						role="progressbar" style="width: 90%"
 																						aria-valuenow="30" aria-valuemin="0"
 																						aria-valuemax="100"></div>
 																				</div>
 																			</td>
-																			<td><h5 class="font-weight-bold mb-0">583</h5></td>
+																			<td><h5 class="font-weight-bold mb-0">83</h5></td>
 																		</tr>
 																		<tr>
 																			<td class="text-muted">불포화지방</td>
@@ -544,7 +545,7 @@
 																						aria-valuemax="100"></div>
 																				</div>
 																			</td>
-																			<td><h5 class="font-weight-bold mb-0">924</h5></td>
+																			<td><h5 class="font-weight-bold mb-0">24</h5></td>
 																		</tr>
 																		<tr>
 																			<td class="text-muted">포화지방</td>
@@ -556,7 +557,7 @@
 																						aria-valuemax="100"></div>
 																				</div>
 																			</td>
-																			<td><h5 class="font-weight-bold mb-0">664</h5></td>
+																			<td><h5 class="font-weight-bold mb-0">14</h5></td>
 																		</tr>
 																		<tr>
 																			<td class="text-muted">나트륨</td>
@@ -568,7 +569,7 @@
 																						aria-valuemax="100"></div>
 																				</div>
 																			</td>
-																			<td><h5 class="font-weight-bold mb-0">560</h5></td>
+																			<td><h5 class="font-weight-bold mb-0">360</h5></td>
 																		</tr>
 																		<tr>
 																			<td class="text-muted">당분</td>
@@ -580,16 +581,14 @@
 																						aria-valuemax="100"></div>
 																				</div>
 																			</td>
-																			<td><h5 class="font-weight-bold mb-0">793</h5></td>
+																			<td><h5 class="font-weight-bold mb-0">3</h5></td>
 																		</tr>
 																	</table>
 																</div>
 															</div>
 															<div class="col-md-6 mt-3">
-																<%-- <canvas id="south-america-chart"></canvas> --%>
-																<canvas id="doughnutChart_lunch"></canvas>
-																<div id="north-america-legend"></div>
-															</div>
+																<canvas id="south-america-chart_lu"></canvas>
+ 															</div>
 														</div>
 													</div>
 												</div>
@@ -601,10 +600,10 @@
 														class="col-md-12 col-xl-3 d-flex flex-column justify-content-start">
 														<div class="ml-xl-4 mt-3">
 															<p class="card-title">저녁</p>
-															<h1 class="text-primary">2450kcal</h1>
+															<h1 class="text-primary">1950kcal</h1>
 															<!-- <h3 class="font-weight-500 mb-xl-4 text-primary"></h3> -->
 															<h3 class="mb-2 mb-xl-0">
-																김치찌게/계란후라이/스팸
+																피자/치킨/막국수
 																</p>
 														</div>
 													</div>
@@ -623,7 +622,7 @@
 																						aria-valuemax="100"></div>
 																				</div>
 																			</td>
-																			<td><h5 class="font-weight-bold mb-0">713</h5></td>
+																			<td><h5 class="font-weight-bold mb-0">513</h5></td>
 																		</tr>
 																		<tr>
 																			<td class="text-muted">단백질</td>
@@ -635,7 +634,7 @@
 																						aria-valuemax="100"></div>
 																				</div>
 																			</td>
-																			<td><h5 class="font-weight-bold mb-0">583</h5></td>
+																			<td><h5 class="font-weight-bold mb-0">103</h5></td>
 																		</tr>
 																		<tr>
 																			<td class="text-muted">불포화지방</td>
@@ -647,7 +646,7 @@
 																						aria-valuemax="100"></div>
 																				</div>
 																			</td>
-																			<td><h5 class="font-weight-bold mb-0">924</h5></td>
+																			<td><h5 class="font-weight-bold mb-0">4</h5></td>
 																		</tr>
 																		<tr>
 																			<td class="text-muted">포화지방</td>
@@ -659,19 +658,19 @@
 																						aria-valuemax="100"></div>
 																				</div>
 																			</td>
-																			<td><h5 class="font-weight-bold mb-0">664</h5></td>
+																			<td><h5 class="font-weight-bold mb-0">64</h5></td>
 																		</tr>
 																		<tr>
 																			<td class="text-muted">나트륨</td>
 																			<td class="w-100 px-0">
 																				<div class="progress progress-md mx-4">
 																					<div class="progress-bar bg-primary"
-																						role="progressbar" style="width: 40%"
+																						role="progressbar" style="width: 99%"
 																						aria-valuenow="40" aria-valuemin="0"
 																						aria-valuemax="100"></div>
 																				</div>
 																			</td>
-																			<td><h5 class="font-weight-bold mb-0">560</h5></td>
+																			<td><h5 class="font-weight-bold mb-0">2160</h5></td>
 																		</tr>
 																		<tr>
 																			<td class="text-muted">당분</td>
@@ -683,21 +682,20 @@
 																						aria-valuemax="100"></div>
 																				</div>
 																			</td>
-																			<td><h5 class="font-weight-bold mb-0">793</h5></td>
+																			<td><h5 class="font-weight-bold mb-0">13</h5></td>
 																		</tr>
 																	</table>
 																</div>
 															</div>
 															<div class="col-md-6 mt-3">
 																<%-- <canvas id="south-america-chart"></canvas> --%>
-																<canvas id="doughnutChart_dinner"></canvas>
+																<canvas id="south-america-chart_din"></canvas>
 																<div id="north-america-legend"></div>
 															</div>
 														</div>
 													</div>
 												</div>
 											</div>
-
 											<!--  -->
 											<div class="carousel-item">
 												<div class="row">
@@ -705,7 +703,7 @@
 														class="col-md-12 col-xl-3 d-flex flex-column justify-content-start">
 														<div class="ml-xl-4 mt-3">
 															<p class="card-title">간식</p>
-															<h1 class="text-primary">2450kcal</h1>
+															<h1 class="text-primary">650kcal</h1>
 															<!-- <h3 class="font-weight-500 mb-xl-4 text-primary"></h3> -->
 															<h3 class="mb-2 mb-xl-0">
 																김치찌게/계란후라이/스팸
@@ -722,60 +720,60 @@
 																			<td class="w-100 px-0">
 																				<div class="progress progress-md mx-4">
 																					<div class="progress-bar bg-primary"
-																						role="progressbar" style="width: 70%"
+																						role="progressbar" style="width: 30%"
 																						aria-valuenow="70" aria-valuemin="0"
 																						aria-valuemax="100"></div>
 																				</div>
 																			</td>
-																			<td><h5 class="font-weight-bold mb-0">713</h5></td>
+																			<td><h5 class="font-weight-bold mb-0">73</h5></td>
 																		</tr>
 																		<tr>
 																			<td class="text-muted">단백질</td>
 																			<td class="w-100 px-0">
 																				<div class="progress progress-md mx-4">
 																					<div class="progress-bar bg-warning"
-																						role="progressbar" style="width: 30%"
+																						role="progressbar" style="width: 0%"
 																						aria-valuenow="30" aria-valuemin="0"
 																						aria-valuemax="100"></div>
 																				</div>
 																			</td>
-																			<td><h5 class="font-weight-bold mb-0">583</h5></td>
+																			<td><h5 class="font-weight-bold mb-0">0</h5></td>
 																		</tr>
 																		<tr>
 																			<td class="text-muted">불포화지방</td>
 																			<td class="w-100 px-0">
 																				<div class="progress progress-md mx-4">
 																					<div class="progress-bar bg-danger"
-																						role="progressbar" style="width: 95%"
+																						role="progressbar" style="width: 0%"
 																						aria-valuenow="95" aria-valuemin="0"
 																						aria-valuemax="100"></div>
 																				</div>
 																			</td>
-																			<td><h5 class="font-weight-bold mb-0">924</h5></td>
+																			<td><h5 class="font-weight-bold mb-0">0</h5></td>
 																		</tr>
 																		<tr>
 																			<td class="text-muted">포화지방</td>
 																			<td class="w-100 px-0">
 																				<div class="progress progress-md mx-4">
 																					<div class="progress-bar bg-info"
-																						role="progressbar" style="width: 60%"
+																						role="progressbar" style="width: 0%"
 																						aria-valuenow="60" aria-valuemin="0"
 																						aria-valuemax="100"></div>
 																				</div>
 																			</td>
-																			<td><h5 class="font-weight-bold mb-0">664</h5></td>
+																			<td><h5 class="font-weight-bold mb-0">0</h5></td>
 																		</tr>
 																		<tr>
 																			<td class="text-muted">나트륨</td>
 																			<td class="w-100 px-0">
 																				<div class="progress progress-md mx-4">
 																					<div class="progress-bar bg-primary"
-																						role="progressbar" style="width: 40%"
+																						role="progressbar" style="width: 99%"
 																						aria-valuenow="40" aria-valuemin="0"
 																						aria-valuemax="100"></div>
 																				</div>
 																			</td>
-																			<td><h5 class="font-weight-bold mb-0">560</h5></td>
+																			<td><h5 class="font-weight-bold mb-0">3560</h5></td>
 																		</tr>
 																		<tr>
 																			<td class="text-muted">당분</td>
@@ -787,14 +785,13 @@
 																						aria-valuemax="100"></div>
 																				</div>
 																			</td>
-																			<td><h5 class="font-weight-bold mb-0">793</h5></td>
+																			<td><h5 class="font-weight-bold mb-0">93</h5></td>
 																		</tr>
 																	</table>
 																</div>
 															</div>
 															<div class="col-md-6 mt-3">
-																<%-- <canvas id="south-america-chart"></canvas> --%>
-																<canvas id="doughnutChart_snack"></canvas>
+																<canvas id="south-america-chart_sna"></canvas>
 																<div id="north-america-legend"></div>
 															</div>
 														</div>
@@ -847,10 +844,10 @@
 													</label>
 												</div> <i class="remove ti-close"></i>
 											</li>
-											<li class="completed">
+											<li><!-- class="completed"  -->
 												<div class="form-check form-check-flat">
 													<label class="form-check-label"> <input
-														class="checkbox" type="checkbox" checked> 아침 꼭
+														class="checkbox" type="checkbox"> 아침 꼭
 														챙겨먹기
 													</label>
 												</div> <i class="remove ti-close"></i>
@@ -862,10 +859,10 @@
 													</label>
 												</div> <i class="remove ti-close"></i>
 											</li>
-											<li class="completed">
+											<li>
 												<div class="form-check form-check-flat">
 													<label class="form-check-label"> <input
-														class="checkbox" type="checkbox" checked> 칼슘 위주 음식
+														class="checkbox" type="checkbox"> 칼슘 위주 음식
 														먹기
 													</label>
 												</div> <i class="remove ti-close"></i>

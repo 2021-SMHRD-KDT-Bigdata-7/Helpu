@@ -300,7 +300,7 @@
 						</div>
 						<div class="events pt-4 px-3">
 							<div class="wrapper d-flex mb-2">
-								<i class="ti-control-record text-primary mr-2"></i> <span>2022/02/25</span>
+								<i class="ti-control-record text-primary mr-2"></i> <span>2022/02/24</span>
 							</div>
 							<p class="mb-0 font-weight-thin text-gray">최종발표일</p>
 							<p class="text-gray mb-0 ">24일인지 25일인지 햇갈림</p>
@@ -331,6 +331,8 @@
 									href="http://localhost:8090/gallery">나의 다이어리</a></li>
 								<li class="nav-item"><a class="nav-link"
 									href="http://localhost:8090/input_food">다이어리 작성하기</a></li>
+								<li class="nav-item"><a class="nav-link"
+									href="https://discord.com/channels/938289908211155015/938289908211155019">음식 추천 받기</a></li>		
 								<li class="nav-item"><a class="nav-link"
 									href="http://localhost:8090/calendar">나의 일정</a></li>
 							</ul>
@@ -540,7 +542,7 @@
                         </tr>
                         <tr class="btn-reveal-trigger">
                           <td class="align-middle white-space-nowrap path"><a class="text-primary fw-semi-bold" href="#!">참치김밥</a></td>
-                          <td class="align-middle white-space-nowrap views text-end">155kcal</td>
+                          <td class="align-middle white-space-nowrap views text-end">755kcal</td>
                           <td class="align-middle white-space-nowrap time text-end">2022/02/19</td>
                           <td class="align-middle text-end exitRate text-end pe-card">7.2%</td>
                         </tr>
@@ -559,12 +561,12 @@
                         <tr class="btn-reveal-trigger">
                           <td class="align-middle white-space-nowrap path"><a class="text-primary fw-semi-bold" href="#!">짜장면</a></td>
                           <td class="align-middle white-space-nowrap views text-end">125kcal</td>
-                          <td class="align-middle white-space-nowrap time text-end">2022/02/10</td>
+                          <td class="align-middle white-space-nowrap time text-end">2022/02/24</td>
                           <td class="align-middle text-end exitRate text-end pe-card">4.2%</td>
                         </tr>
                         <tr class="btn-reveal-trigger">
                           <td class="align-middle white-space-nowrap path"><a class="text-primary fw-semi-bold" href="#!">김밥</a></td>
-                          <td class="align-middle white-space-nowrap views text-end">835kcal</td>
+                          <td class="align-middle white-space-nowrap views text-end">435kcal</td>
                           <td class="align-middle white-space-nowrap time text-end">2022/02/18</td>
                           <td class="align-middle text-end exitRate text-end pe-card">3.4%</td>
                         </tr>

@@ -386,7 +386,9 @@
 								<li class="nav-item"><a class="nav-link"
 									href="http://localhost:8090/gallery">나의 다이어리</a></li>
 								<li class="nav-item"><a class="nav-link"
-									href="http://localhost:8090/input_food">다이어리 작성하기</a></li>							
+									href="http://localhost:8090/input_food">다이어리 작성하기</a></li>		
+								<li class="nav-item"><a class="nav-link"
+									href="https://discord.com/channels/938289908211155015/938289908211155019">음식 추천 받기</a></li>							
 								<li class="nav-item"><a class="nav-link"
 									href="http://localhost:8090/calendar">나의 일정</a></li>
 							</ul>

@@ -288,6 +288,8 @@
 								<li class="nav-item"><a class="nav-link"
 									href="http://localhost:8090/input_food">다이어리 작성하기</a></li>
 								<li class="nav-item"><a class="nav-link"
+									href="https://discord.com/channels/938289908211155015/938289908211155019">음식 추천 받기</a></li>		
+								<li class="nav-item"><a class="nav-link"
 									href="http://localhost:8090/calendar">나의 일정</a></li>
 							</ul>
 						</div></li>
@@ -569,7 +571,7 @@
 																			progressbar" style="width: 95%" aria-valuenow="95"
 																			aria-valuemin="0" aria-valuemax="100"></div>
 																	</div>
-																	<p class="mb-0">1521kcal</p>
+																	<p class="mb-0">785kcal</p>
 																</div>
 															</div>
 															<div class="mt-3">
@@ -578,11 +580,11 @@
 																	class="d-flex justify-content-between align-items-center">
 																	<div class="progress progress-md flex-grow-1 mr-4">
 																		<div class="progress-bar bg-warning"
-																			role="progressbar" style="width: 35%"
+																			role="progressbar" style="width: 65%"
 																			aria-valuenow="35" aria-valuemin="0"
 																			aria-valuemax="100"></div>
 																	</div>
-																	<p class="mb-0">100g</p>
+																	<p class="mb-0">129.41g</p>
 																</div>
 															</div>
 															<div class="mt-3">
@@ -591,11 +593,11 @@
 																	class="d-flex justify-content-between align-items-center">
 																	<div class="progress progress-md flex-grow-1 mr-4">
 																		<div class="progress-bar bg-success"
-																			role="progressbar" style="width: 48%"
+																			role="progressbar" style="width: 28%"
 																			aria-valuenow="48" aria-valuemin="0"
 																			aria-valuemax="100"></div>
 																	</div>
-																	<p class="mb-0">992g</p>
+																	<p class="mb-0">26.81g</p>
 																</div>
 															</div>
 															<div class="mt-3">
@@ -607,7 +609,7 @@
 																			style="width: 25%" aria-valuenow="25"
 																			aria-valuemin="0" aria-valuemax="100"></div>
 																	</div>
-																	<p class="mb-0">687g</p>
+																	<p class="mb-0">19.98g</p>
 																</div>
 															</div>
 														</div>
@@ -626,11 +628,11 @@
 																class="d-flex flex-column-reverse todo-list todo-list-custom">
 																<li>
 																	<div class="form-check form-check-flat">
-																		<label class="form-check-label"> <a href="">김치찌개</a>
+																		<label class="form-check-label"> <a href="">짜장면</a>
 																		</label>
 																	</div> <i class="remove ti-close"></i>
 																</li>
-																<li>
+																<!-- <li>
 																	<div class="form-check form-check-flat">
 																		<label class="form-check-label"> <a href="">햇반</a>
 																		</label>
@@ -641,7 +643,7 @@
 																		<label class="form-check-label"> <a href="">스팸</a>
 																		</label>
 																	</div> <i class="remove ti-close"></i>
-																</li>
+																</li> -->
 															</ul>
 															<div class="add-items d-flex mb-0 mt-2">
 																<input type="text" class="form-control todo-list-input"

@@ -30,7 +30,7 @@
 	<!--================Offcanvus Menu Area =================-->
 	<div class="side_menu">
 		<a class="logo" href="#">
-			<img src="resources/images/logoss.png" alt="">
+			<img src="resources/images/16.png" alt="">
 		</a>
 		<ul class="list menu_right">
 			<li>

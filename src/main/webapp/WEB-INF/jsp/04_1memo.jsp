@@ -286,7 +286,9 @@ function input_page()  {
 								<li class="nav-item"><a class="nav-link"
 									href="http://localhost:8090/gallery">나의 다이어리</a></li>
 								<li class="nav-item"><a class="nav-link"
-									href="http://localhost:8090/input_food">다이어리 작성하기</a></li>							
+									href="http://localhost:8090/input_food">다이어리 작성하기</a></li>
+								<li class="nav-item"><a class="nav-link"
+									href="https://discord.com/channels/938289908211155015/938289908211155019">음식 추천 받기</a></li>									
 								<li class="nav-item"><a class="nav-link"
 									href="http://localhost:8090/calendar">나의 일정</a></li>
 							</ul>
@@ -344,13 +346,13 @@ function input_page()  {
                           </td>
                           
                           <td>
-                            	김치찌게 노맛
+                            	안녕하세요 바른 생활 헬푸 입니다.
                           </td>
                           <td>
-                            minju
+                            admin
                           </td>
                           <td>
-                            2022/02/22
+                            2022/02/01
                           </td>
                         </tr>
                         <tr>
@@ -358,24 +360,10 @@ function input_page()  {
                            <label class="badge btn-inverse-info">팁공유</label>
                           </td>
                            <td>
-                            김치찌게 노맛
+                            김치찌게 정말 맛있게 끓이는 법
                           </td>
                           <td>
-                            minju
-                          </td>
-                          <td>
-                            2022/02/22
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <label class="badge btn-inverse-success">음식자랑</label>
-                          </td>
-                           <td>
-                            김치찌게 노맛
-                          </td>
-                          <td>
-                            minju
+                            lee
                           </td>
                           <td>
                             2022/02/22
@@ -386,10 +374,10 @@ function input_page()  {
                             <label class="badge btn-inverse-success">음식자랑</label>
                           </td>
                            <td>
-                            김치찌게 노맛
+                            김치찌게 너무 맛있어요
                           </td>
                           <td>
-                            minju
+                            minjus
                           </td>
                           <td>
                             2022/02/22
@@ -400,13 +388,41 @@ function input_page()  {
                             <label class="badge btn-inverse-success">음식자랑</label>
                           </td>
                            <td>
-                            	김치찌게 노맛
+                            참치김치찌게 너무 좋아요
                           </td>
                           <td>
-                            minju
+                            daewon
                           </td>
                           <td>
-                            2022/02/22
+                            2022/02/21
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <label class="badge btn-inverse-success">음식자랑</label>
+                          </td>
+                           <td>
+                            	돼지 김치찌게 좋아요
+                          </td>
+                          <td>
+                            sungsu
+                          </td>
+                          <td>
+                            2022/02/20
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <label class="badge btn-inverse-success">음식자랑</label>
+                          </td>
+                           <td>
+                            	꽁치 김치찌게 맛있어요
+                          </td>
+                          <td>
+                            kungsik
+                          </td>
+                          <td>
+                            2022/02/19
                           </td>
                         </tr>
                        

@@ -17,8 +17,7 @@ public class LoginController {
 	
 	@RequestMapping("/joindo")
     public String join(Tb_Member vo) {		
-		System.out.print("??");
 		service.joinservice(vo);
-		return  "redirect:/login";
+		return  "redirect:login";
     }
 }

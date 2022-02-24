@@ -29,7 +29,7 @@ public class SpringConfig extends WebSecurityConfigurerAdapter {
                 .anyRequest().authenticated();
         http.formLogin()       		
                 .permitAll()
-                .defaultSuccessUrl("/home");
+                .successForwardUrl("/home");
         http.logout()
         		.permitAll()
         		.invalidateHttpSession(true);
@@ -38,6 +38,10 @@ public class SpringConfig extends WebSecurityConfigurerAdapter {
     public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception{
     	auth.inMemoryAuthentication()
     		.withUser("skalswn").password(passwordEncoder().encode("123456")).roles("USER")
+    		.and()
+    		.withUser("user").password(passwordEncoder().encode("1234")).roles("USER")
+    		.and()
+    		.withUser("skalswn1995").password(passwordEncoder().encode("1234")).roles("USER")
     		.and()
     		.withUser("admin").password(passwordEncoder().encode("1234")).roles("ADMIN");
     	
