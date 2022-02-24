@@ -364,7 +364,7 @@
                 <div class="card-header bg-transparent light">
                   <h5 class="text-white">나민주님의 식습관 리포트</h5>
                   <div style="text-align : center;">
-                  <img class="rounded-circle img-thumbnail shadow-sm" src="html/public/assets/img/team/2.jpg" alt width="200">
+                  <img class="rounded-circle img-thumbnail shadow-sm" src="resources/images/faces/my.jpg" alt width="200">
                   </div>
                 </div>
                 <div class="card-body text-white fs--1 light pb-0">             
@@ -518,19 +518,19 @@
                           <td class="align-middle white-space-nowrap path"><a class="text-primary fw-semi-bold" href="#!">김치찌개</a></td>
                           <td class="align-middle white-space-nowrap views text-end">230kcal</td>
                           <td class="align-middle white-space-nowrap time text-end">2022/02/23</td>
-                          <td class="align-middle text-end exitRate text-end pe-card">20.4%</td>
+                          <td class="align-middle text-end exitRate text-end pe-card">30.4%</td>
                         </tr>
                         <tr class="btn-reveal-trigger">
                           <td class="align-middle white-space-nowrap path"><a class="text-primary fw-semi-bold" href="#!">빅맥</a></td>
                           <td class="align-middle white-space-nowrap views text-end">234kcal</td>
                           <td class="align-middle white-space-nowrap time text-end">2022/02/21</td>
-                          <td class="align-middle text-end exitRate text-end pe-card">10.2%</td>
+                          <td class="align-middle text-end exitRate text-end pe-card">27.2%</td>
                         </tr>
                        <tr class="btn-reveal-trigger">
                           <td class="align-middle white-space-nowrap path"><a class="text-primary fw-semi-bold" href="#!">카레라이스</a></td>
                           <td class="align-middle white-space-nowrap views text-end">135kcal</td>
                           <td class="align-middle white-space-nowrap time text-end">2022/02/20</td>
-                          <td class="align-middle text-end exitRate text-end pe-card">8.4%</td>
+                          <td class="align-middle text-end exitRate text-end pe-card">18.4%</td>
                         </tr>
                         <tr class="btn-reveal-trigger">
                           <td class="align-middle white-space-nowrap path"><a class="text-primary fw-semi-bold" href="#!">탕수육</a></td>

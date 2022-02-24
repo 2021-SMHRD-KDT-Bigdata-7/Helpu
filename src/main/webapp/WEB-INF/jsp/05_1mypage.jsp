@@ -361,7 +361,7 @@
 											class="avatar avatar-5xl avatar-profile shadow-sm img-thumbnail rounded-circle">
 											<div
 												class="h-100 w-100 rounded-circle overflow-hidden position-relative">
-												<img src="html/public/assets/img/team/2.jpg" width="200" alt=""
+												<img src="resources/images/faces/my.jpg" width="200" alt=""
 													data-dz-thumbnail> <input class="d-none"
 													id="profile-image" type="file"> <label
 													class="mb-0 overlay-icon d-flex flex-center"
@@ -400,13 +400,13 @@
 													<div class="col-lg-6">
 														<div class="form-group">
 															<label for="email1">치팅데이</label> <input
-																class="form-control" id="m_cheatingday" name="m_cheatingday" type="text">
+																class="form-control" id="m_cheatingday" name="m_cheatingday" type="text" value="수">
 														</div>
 													</div>
 													<div class="col-lg-6">
 														<div class="form-group">
 															<label for="phone">몸무게</label> <input
-																class="form-control" id="m_weight" name = "m_weight" type="text">
+																class="form-control" id="m_weight" name = "m_weight" type="text" value="76">
 														</div>
 													</div>
 													<div class="col-12">
