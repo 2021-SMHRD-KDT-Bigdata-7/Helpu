@@ -67,6 +67,16 @@ public class DemoController {
 	public String input_memo() {
 		return "04_2input_memo";
 	}
+	
+	@RequestMapping("/mypage")
+	   public String mypage() {
+	      return "05_1mypage";
+	   }
+	
+	@RequestMapping("/mypageupdate")
+	   public String mypage_update() {
+	      return "05_1mypage2_update";
+	   }
 	/*@RequestMapping("/ex_db")
 	public String ex_db() {
 		return "ex_db";
