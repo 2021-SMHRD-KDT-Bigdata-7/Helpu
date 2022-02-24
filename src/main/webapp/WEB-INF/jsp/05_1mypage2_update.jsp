@@ -311,7 +311,7 @@
 								<li class="nav-item"><a class="nav-link"
 									href="http://localhost:8090/input_food">다이어리 작성하기</a></li>
 								<li class="nav-item"><a class="nav-link"
-									href="http://localhost:8090/calendar">나의 일정(캘린더)</a></li>
+									href="http://localhost:8090/calendar">나의 일정</a></li>
 							</ul>
 						</div></li>
 					<li class="nav-item"><a class="nav-link"
@@ -369,6 +369,7 @@
 													class="z-index-1 text-white text-center fs--1"><span
 														class="fas fa-camera"></span><span class="d-block">Update</span></span></label>
 											</div>
+											
 										</div>
 									</div>
 								</div>
@@ -381,19 +382,20 @@
 										<h5 class="mb-0">나민주님</h5>
 									</div>
 									<div class="card-body bg-light">
-										<form>
+									<!--action="/mypage_update"  -->
+										<form  method="post">
 											<div class="row">
 												<div class="col-lg-6">
 													<div class="form-group">
 														<label for="first-name">아이디</label> <input
-															class="form-control" id="first-name" type="text"
+															class="form-control"  type="text" id="m_id"  name="m_id"
 															value="skalswn1995">
 													</div>
 												</div>
 												<div class="col-lg-6">
 													<div class="form-group">
 														<label for="last-name">password</label> <input
-															class="form-control" id="last-name" type="password"
+															class="form-control" id="m_pw"  name="m_pw" type="password"
 															value="password">
 													</div>
 												</div>
@@ -414,7 +416,7 @@
 												<div class="col-12">
 													<div class="form-group">
 														<label for="heading">나의 건강</label> 
-															<select class="form-control" name='ill'>
+															<select class="form-control" id="m_disease"  name="m_disease">
 															<option value='none'>없음</option>
 															<option value='highbloodpressure'>고혈압</option>
 														    <option value='dang'>당뇨</option>
@@ -430,8 +432,9 @@
 													</div>
 												</div>
 												<div class="col-12 d-flex justify-content-end">
-													<button class="btn btn-primary" type="submit">Update
+													<button class="btn btn-primary" type="submit" onclick="location.href='05_1mypage2.jsp'">Update
 													</button>
+													<!--onclick="location='05_1mypage.jsp'"  -->
 												</div>
 											</div>
 										</form>
